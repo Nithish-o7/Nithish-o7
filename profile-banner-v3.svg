@@ -258,8 +258,8 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-                <!-- ASCII Art Name -->
-    <text class="font-mono" x="80" y="107" font-size="4.8" font-weight="700" fill="#00f0ff" xml:space="preserve">
+                    <!-- ASCII Art Name -->
+    <text font-family="'Courier New', Courier, Monaco, monospace" x="80" y="107" font-size="4.8" font-weight="700" fill="#00f0ff" xml:space="preserve">
       <tspan x="80" dy="0">$$\   $$\ $$$$$$\ $$$$$$$$\ $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\          $$$$$$\  $$$$$$$$\ </tspan>
       <tspan x="80" dy="10">$$$\  $$ |\_$$  _|\__$$  __|$$ |  $$ |\_$$  _|$$  __$$\ $$ |  $$ |        $$  __$$\ \____$$  |</tspan>
       <tspan x="80" dy="10">$$$$\ $$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$ /  \__|$$ |  $$ |        $$ /  $$ |    $$  / </tspan>
