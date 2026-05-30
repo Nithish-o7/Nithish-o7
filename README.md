@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=7" width="800" alt="Nithish — Application Developer Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=8" width="800" alt="Nithish — Application Developer Command Center"/>
 </a>
 
 <br/>
@@ -96,6 +96,32 @@ while (nithish.alive) {
 ---
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ CONTRIBUTION MAP — PIXEL MATRIX                     ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
+</a>
+
+
+
+<!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
+<!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+</picture>
+
+</div>
+
+---
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 <!-- ▌ SYSTEM CONSOLE — LIVE STATS                         ▐ -->
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
@@ -132,32 +158,6 @@ while (nithish.alive) {
 
 ---
 
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!-- ▌ CONTRIBUTION MAP — PIXEL MATRIX                     ▐ -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-
-<div align="center">
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
-</a>
-
-
-
-<!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
-<!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake.svg"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
-</picture>
-
-</div>
-
----
-
 
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
@@ -175,8 +175,5 @@ while (nithish.alive) {
 <img src="https://komarev.com/ghpvc/?username=Nithish-o7&style=flat-square&color=00d4ff&label=profile+views" alt="Profile Views"/>
 
 <br/><br/>
-
-<!-- Trophy rack -->
-<img src="https://gh-trophy.cdnsoft.net/?username=Nithish-o7&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4&v=3" alt="Trophies"/>
 
 </div>
