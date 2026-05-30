@@ -15,9 +15,6 @@
   <img src="hologram-banner.svg" width="900" alt="Nithish — Holographic Command Center" />
 </a>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Nithish-o7&style=for-the-badge&color=00d4ff&label=◈+SIGNAL+RECEIVED&labelColor=0d1117" alt="Signal Count"/>
 
 </div>
 
