@@ -153,7 +153,7 @@ while (nithish.alive) {
 
 <!-- 3D Contribution Calendar — generated via GitHub Actions (.github/workflows/3d-contrib.yml) -->
 <!-- Action: yoshi389111/github-profile-3d-contrib | Output: profile-3d-contrib/profile-green-animate.svg -->
-<img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Calendar"/>
+<img src="./profile-3d-contrib/profile-customize.svg" width="100%" alt="3D Contribution Calendar"/>
 
 <br/>
 
