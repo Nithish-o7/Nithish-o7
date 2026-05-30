@@ -228,23 +228,23 @@
 
     <!-- Corner brackets TL -->
     <g class="corner-br" opacity="0.75">
-      <line x1="6" y1="6" x2="34" y2="6" stroke="#00f0ff" stroke-width="1.8"/>
-      <line x1="6" y1="6" x2="6" y2="34" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="14" y1="14" x2="42" y2="14" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="14" y1="14" x2="14" y2="42" stroke="#00f0ff" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets TR -->
     <g class="corner-br" opacity="0.75">
-      <line x1="894" y1="6" x2="866" y2="6" stroke="#00f0ff" stroke-width="1.8"/>
-      <line x1="894" y1="6" x2="894" y2="34" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="886" y1="14" x2="858" y2="14" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="886" y1="14" x2="886" y2="42" stroke="#00f0ff" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets BL -->
     <g class="corner-br" opacity="0.75">
-      <line x1="6" y1="444" x2="34" y2="444" stroke="#8a2be2" stroke-width="1.8"/>
-      <line x1="6" y1="444" x2="6" y2="416" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="14" y1="436" x2="42" y2="436" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="14" y1="436" x2="14" y2="408" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets BR -->
     <g class="corner-br" opacity="0.75">
-      <line x1="894" y1="444" x2="866" y2="444" stroke="#8a2be2" stroke-width="1.8"/>
-      <line x1="894" y1="444" x2="894" y2="416" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="886" y1="436" x2="858" y2="436" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="886" y1="436" x2="886" y2="408" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
 
     <!-- ═══════════════════ LEFT PANEL — PROFILE CARD ═══════════════════ -->
@@ -363,6 +363,11 @@
             font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1"
             fill="#67e8f9">WORKFLOW DESIGN</text>
     </g>
+
+    <!-- ── Coding Quote ── -->
+    <text x="261" y="408" class="font-mono" font-size="11.5" font-weight="500" fill="#8b949e" text-anchor="middle" letter-spacing="0.5">
+      "if at first you don't suceed try, try again"
+    </text>
 
     <!-- ═══════════════════ RIGHT PANEL — DEV ECOSYSTEM ═══════════════════ -->
 

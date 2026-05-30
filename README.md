@@ -73,11 +73,6 @@ while (nithish.alive) {
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
 </picture>
 
-<br/>
-<br/>
-
-<code>"If at first you don't succeed, try, try again."</code>
-
 </div>
 
 ---
