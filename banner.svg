@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 800 400" width="800" height="400" role="img"
-     aria-label="Nithish — Cloud &amp; IoT Command Center Banner">
+     aria-label="Nithish — Application Developer Command Center Banner">
 
   <defs>
     <!-- Background radial glow -->
@@ -67,6 +67,7 @@
 
     /* ── Base ── */
     .font-inter { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+    .font-name { font-family: 'Futura-Bold', 'Futura', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 800; text-transform: uppercase; }
 
     /* ── Radar sweep animation ── */
     @keyframes radarSweep {
@@ -126,32 +127,7 @@
     .flow-line-c { animation-delay: 0.9s;  }
     .flow-line-d { animation-delay: 1.35s; }
 
-    /* ── Telemetry swap (4 lines × 5 s each = 20 s loop) ── */
-    @keyframes tele1 {
-      0%,4%       { opacity:0; transform: translateY(6px); }
-      6%,22%      { opacity:1; transform: translateY(0); }
-      24%,100%    { opacity:0; transform: translateY(-6px); }
-    }
-    @keyframes tele2 {
-      0%,24%      { opacity:0; transform: translateY(6px); }
-      26%,47%     { opacity:1; transform: translateY(0); }
-      49%,100%    { opacity:0; transform: translateY(-6px); }
-    }
-    @keyframes tele3 {
-      0%,49%      { opacity:0; transform: translateY(6px); }
-      51%,72%     { opacity:1; transform: translateY(0); }
-      74%,100%    { opacity:0; transform: translateY(-6px); }
-    }
-    @keyframes tele4 {
-      0%,74%      { opacity:0; transform: translateY(6px); }
-      76%,96%     { opacity:1; transform: translateY(0); }
-      98%,100%    { opacity:0; transform: translateY(-6px); }
-    }
-    .tele-line { transition: opacity 0.3s; }
-    .tele1 { animation: tele1 20s ease-in-out infinite; }
-    .tele2 { animation: tele2 20s ease-in-out infinite; }
-    .tele3 { animation: tele3 20s ease-in-out infinite; }
-    .tele4 { animation: tele4 20s ease-in-out infinite; }
+    /* Telemetry keyframes removed - static quote used in bottom bar */
 
     /* ── Radar sweep ── */
     .radar-sweep {
@@ -280,15 +256,15 @@
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
     <!-- Name — glitch ghost layer -->
-    <text class="name-ghost font-inter"
+    <text class="name-ghost font-name"
           x="42" y="130"
-          font-size="38" font-weight="900" letter-spacing="1"
+          font-size="34" font-weight="700" letter-spacing="4"
           fill="#8a2be2" opacity="0">NITHISH</text>
 
     <!-- Name — main -->
-    <text class="name-main font-inter"
+    <text class="name-main font-name"
           x="42" y="130"
-          font-size="38" font-weight="900" letter-spacing="1"
+          font-size="34" font-weight="700" letter-spacing="4"
           fill="#ffffff" filter="url(#nameGlow)">NITHISH</text>
 
     <!-- Cyan underline beneath name -->
@@ -299,7 +275,7 @@
     <text class="subtitle font-inter"
           x="44" y="164"
           font-size="13.5" font-weight="500" letter-spacing="0.5"
-          fill="#8b949e" opacity="0.95">Cloud Admin  ·  Automation  ·  UI/UX</text>
+          fill="#8b949e" opacity="0.95">Application Developer  ·  Workflow  ·  Learner</text>
 
     <!-- Role tags -->
     <!-- Tag 1: ServiceNow -->
@@ -310,29 +286,29 @@
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#cc88ff">SERVICENOW</text>
 
-    <!-- Tag 2: IoT -->
-    <rect x="138" y="182" width="80" height="20" rx="4"
-          fill="#00d4ff" fill-opacity="0.08"
-          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="178" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00d4ff">IoT / ESP32</text>
-
-    <!-- Tag 3: Python -->
-    <rect x="224" y="182" width="60" height="20" rx="4"
-          fill="#00d4ff" fill-opacity="0.08"
-          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="254" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00d4ff">PYTHON</text>
-
-    <!-- Tag 4: Figma -->
-    <rect x="290" y="182" width="54" height="20" rx="4"
+    <!-- Tag 2: Java -->
+    <rect x="138" y="182" width="46" height="20" rx="4"
           fill="#ff9500" fill-opacity="0.08"
           stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="317" y="196" class="font-inter"
+    <text x="161" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#ff9500">FIGMA</text>
+          fill="#ff9500">JAVA</text>
+
+    <!-- Tag 3: Flow Designer -->
+    <rect x="190" y="182" width="108" height="20" rx="4"
+          fill="#00d4ff" fill-opacity="0.08"
+          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="244" y="196" class="font-inter"
+          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#00d4ff">FLOW DESIGNER</text>
+
+    <!-- Tag 4: Figma -->
+    <rect x="304" y="182" width="54" height="20" rx="4"
+          fill="#cc88ff" fill-opacity="0.15"
+          stroke="#cc88ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="331" y="196" class="font-inter"
+          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#cc88ff">FIGMA</text>
 
     <!-- Bio lines -->
     <line x1="42" y1="216" x2="400" y2="216" stroke="#30363d" stroke-width="0.8" opacity="0.9"/>
@@ -345,7 +321,7 @@
     <text x="42" y="252" class="font-inter"
           font-size="10.5" font-weight="400"
           fill="#8b949e" opacity="0.95">
-      ◈  SIH 2025 Finalist  ·  ServiceNow CSA &amp; CAD
+      ◈  Application Dev  ·  ServiceNow CSA &amp; CAD
     </text>
     <text x="42" y="270" class="font-inter"
           font-size="10.5" font-weight="400"
@@ -363,7 +339,7 @@
     <!-- Panel label -->
     <text x="466" y="50" class="font-inter"
           font-size="9" font-weight="600" letter-spacing="3"
-          fill="#8b949e" opacity="0.9">IOT NETWORK  ·  NODE MAP</text>
+          fill="#8b949e" opacity="0.9">DEVELOPMENT ECOSYSTEM  ·  NODE MAP</text>
 
     <!-- ── Satellite nodes positions:
          A = top-right   (638, 82)
@@ -433,7 +409,7 @@
     <!-- Central label -->
     <text x="565" y="205" class="font-inter"
           font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.5"
-          fill="#00f0ff" opacity="0.6">CENTRAL</text>
+          fill="#00f0ff" opacity="0.6">CORE</text>
 
     <!-- ── SATELLITE NODE A — top-right ── -->
     <g class="sat-a" filter="url(#purpleGlow)">
@@ -443,7 +419,7 @@
     </g>
     <text x="638" y="72" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">ESP32</text>
+          fill="#8a2be2" opacity="0.8">JAVA</text>
 
     <!-- ── SATELLITE NODE B — right ── -->
     <g class="sat-b" filter="url(#purpleGlow)">
@@ -473,7 +449,7 @@
     </g>
     <text x="492" y="72" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff" opacity="0.8">SN APP</text>
+          fill="#00f0ff" opacity="0.8">SNOW</text>
 
     <!-- ═══════════════════ BOTTOM — TELEMETRY FEED ═══════════════════ -->
 
@@ -484,77 +460,19 @@
     <line x1="0" y1="308" x2="800" y2="308"
           stroke="#30363d" stroke-width="1" opacity="0.95"/>
 
-    <!-- Left label "TELEMETRY FEED" -->
-    <text x="24" y="330" class="font-inter"
-          font-size="8.5" font-weight="700" letter-spacing="3"
-          fill="#8b949e" opacity="0.95">TELEMETRY FEED</text>
-
-    <!-- Status indicator -->
-    <circle class="status-dot" cx="150" cy="326" r="3.5" fill="#39d353"/>
-    <text x="158" y="330" class="font-inter"
-          font-size="8" font-weight="600" letter-spacing="1"
-          fill="#39d353" opacity="0.95">LIVE</text>
-
-    <!-- Separator -->
-    <line x1="24" y1="338" x2="776" y2="338"
-          stroke="#30363d" stroke-width="0.8" opacity="0.8"/>
-
-    <!-- Telemetry lines container -->
-    <g transform="translate(24, 345)">
-      <!-- Line 1 -->
-      <g class="tele-line tele1">
-        <text class="font-inter" x="0" y="18"
-              font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#c9d1d9">
-          <tspan fill="#ff9500" opacity="0.95">TELEMETRY</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#c9d1d9">Project Guardian AI Framework</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#39d353" font-size="10">[ONLINE]</tspan>
-        </text>
-      </g>
-      <!-- Line 2 -->
-      <g class="tele-line tele2">
-        <text class="font-inter" x="0" y="18"
-              font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#c9d1d9">
-          <tspan fill="#00d4ff" opacity="0.95">AUTOMATION</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#c9d1d9">Python IT Workflows</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#39d353" font-size="10">[ACTIVE]</tspan>
-        </text>
-      </g>
-      <!-- Line 3 -->
-      <g class="tele-line tele3">
-        <text class="font-inter" x="0" y="18"
-              font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#c9d1d9">
-          <tspan fill="#8a2be2" opacity="0.95">SERVICENOW</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#c9d1d9">CSA &amp; CAD Scoped Apps</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#39d353" font-size="10">[DEPLOYED]</tspan>
-        </text>
-      </g>
-      <!-- Line 4 -->
-      <g class="tele-line tele4">
-        <text class="font-inter" x="0" y="18"
-              font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#c9d1d9">
-          <tspan fill="#58a6ff" opacity="0.95">INTERFACE</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#c9d1d9">Figma Prototypes</tspan>
-          <tspan fill="#444c56">  ·  </tspan>
-          <tspan fill="#39d353" font-size="10">[SYNCED]</tspan>
-        </text>
-      </g>
+    <!-- Quote inside bottom bar -->
+    <g transform="translate(400, 354)">
+      <text class="font-inter" x="0" y="0"
+            font-size="13" font-style="italic" font-weight="600" letter-spacing="0.5"
+            fill="#8b949e" text-anchor="middle">
+        "If at first you don't succeed, try, try again."
+      </text>
     </g>
 
     <!-- Bottom right timestamp -->
     <text x="776" y="390" class="font-inter"
           font-size="8" font-weight="400" text-anchor="end" letter-spacing="1"
-          fill="#2a4050" opacity="0.9">NITHISH-O7  ·  IST +05:30  ·  2026</text>
+          fill="#8b949e" opacity="0.8">NITHISH-O7  ·  IST +05:30  ·  2026</text>
 
   </g>
 </svg>

@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=5" width="800" alt="Nithish — Cloud & IoT Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=7" width="800" alt="Nithish — Application Developer Command Center"/>
 </a>
 
 <br/>
@@ -35,11 +35,10 @@
 const nithish = {
   pronouns     : "he/him",
   timezone     : "IST +05:30 | Tamil Nadu, India",
-  currentFocus : ["ServiceNow Scoped Apps", "IoT Networks", "Full-Stack Dev"],
-  learning     : ["REST API Integration", "Cloud-IoT Pipelines", "Agile Delivery"],
-  hackathon    : "SIH 2025 Finalist 🏆 — Project Guardians (IEADS)",
+  currentFocus : ["ServiceNow Scoped Apps", "Java Applications", "Full-Stack Dev"],
+  learning     : ["REST API Integration", "Workflow Automation", "Agile Delivery"],
   openTo       : ["Open Source", "Research Collabs", "Projects"],
-  funFact      : "I debug hardware with a multimeter AND a debugger. Both lie equally.",
+  funFact      : "I spend 5 hours automating a task that takes 5 seconds to do manually.",
   coffeeToCode  : "1 cup → 200 lines → 1 bug fixed → 3 new bugs introduced",
 };
 
@@ -85,13 +84,6 @@ while (nithish.alive) {
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-
-**`PLATFORMS & HARDWARE`**
-
-![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00878F?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Neo-6M GPS](https://img.shields.io/badge/Neo--6M_GPS-0A2540?style=for-the-badge&logoColor=white)
 
 **`DESIGN & WORKFLOW`**
 
