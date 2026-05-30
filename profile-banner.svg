@@ -83,7 +83,7 @@
       100% { transform: scale(1);    opacity: 1; }
     }
     .node-pulse {
-      transform-origin: 565px 175px;
+      transform-origin: 617px 163px;
       animation: nodePulse 2.4s ease-in-out infinite;
     }
 
@@ -134,7 +134,7 @@
 
     /* ── Radar sweep ── */
     .radar-sweep {
-      transform-origin: 565px 175px;
+      transform-origin: 617px 163px;
       animation: radarSweep 3.5s linear infinite;
     }
 
@@ -258,20 +258,8 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-            <!-- ASCII Art Name -->
-    <text class="font-mono" x="106" y="92" font-size="4.6" font-weight="700" fill="#00f0ff" xml:space="preserve">
-      <tspan x="106" dy="0">$$\  $$\ $$\  $$\    $$\      $$\        $$\                        $$$$$$$$\</tspan>
-      <tspan x="106" dy="10">$$$\  $$ |\_|  $$ |   $$ |     \_|        $$ |                       \____$$  |</tspan>
-      <tspan x="106" dy="10">$$$$ \ $$ |$$\ $$$$$$\ $$$$$$$\ $$\ $$$$$$$\ $$$$$$$\   $$\   $$\ $$$$$$\   $$  /</tspan>
-      <tspan x="106" dy="10">$$ $$ \$$ |$$ |\_$$  _|\_$$  _||$$ |$$  _____|$$  __$$\  $$ |  $$ |\_$$  _|  $$  /</tspan>
-      <tspan x="106" dy="10">$$ \$$ $$ |$$ |  $$ |    $$ |  $$ |$$ /      $$ |  $$ |  $$ |  $$ |  $$ |   $$  /</tspan>
-      <tspan x="106" dy="10">$$ |\$$$ |$$ |  $$ |$$\ $$ |$$\$$ |$$ |      $$ |  $$ |  $$ |  $$ |  $$ |  $$  /</tspan>
-      <tspan x="106" dy="10">$$ | \$$ |$$ |  \$$$$  |\$$$$  |$$ |\$$$$$$$\ $$ |  $$ |  \$$$$$$$|  $$ |  $$  /</tspan>
-      <tspan x="106" dy="10">\__|  \__|\__|   \____/  \____/ \__| \_______|\__|  \__|   \____$$ |  \__|  \__/</tspan>
-      <tspan x="106" dy="10">                                                          $$\   $$ |</tspan>
-      <tspan x="106" dy="10">                                                          \$$$$$$  |</tspan>
-      <tspan x="106" dy="10">                                                           \______/</tspan>
-    </text>
+            <!-- Name Section -->
+    <text class="font-mono" x="219" y="140" font-size="34" font-weight="700" letter-spacing="4" fill="#ffffff" text-anchor="middle" filter="url(#nameGlow)">NITHISH-O7</text>
 
     <!-- Role tags -->
     <!-- Tag 1: ServiceNow -->
@@ -311,131 +299,108 @@
           font-size="9" font-weight="600" letter-spacing="3"
           fill="#8b949e" opacity="0.9">DEVELOPMENT ECOSYSTEM  ·  NODE MAP</text>
 
-    <!-- ── Satellite nodes positions:
-         A = top-right   (638, 82)
-         B = right       (708, 175)
-         C = bottom-right(638, 268)
-         D = top-left    (492, 82)
-    ── -->
-
     <!-- DATA FLOW LINES (drawn before nodes so nodes sit on top) -->
 
-    <!-- Line: center → A (top-right) -->
-    <line x1="565" y1="175" x2="638" y2="88"
+    <!-- Line: center → SNOW (top-left) -->
+    <line x1="617" y1="163" x2="542" y2="98"
           stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line" x1="565" y1="175" x2="638" y2="88"
+    <line class="flow-line" x1="617" y1="163" x2="542" y2="98"
           stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
 
-    <!-- Line: center → B (right) -->
-    <line x1="565" y1="175" x2="700" y2="175"
-          stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-b" x1="565" y1="175" x2="700" y2="175"
-          stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
-
-    <!-- Line: center → C (bottom-right) -->
-    <line x1="565" y1="175" x2="638" y2="262"
-          stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-c" x1="565" y1="175" x2="638" y2="262"
-          stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
-
-    <!-- Line: center → D (top-left) -->
-    <line x1="565" y1="175" x2="492" y2="88"
+    <!-- Line: center → JAVA / JS (top-right) -->
+    <line x1="617" y1="163" x2="692" y2="98"
           stroke="#8a2be2" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-d" x1="565" y1="175" x2="492" y2="88"
+    <line class="flow-line flow-line-b" x1="617" y1="163" x2="692" y2="98"
           stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
- 
-    <!-- Line: center → E (bottom-left) -->
-    <line x1="565" y1="175" x2="492" y2="262"
+
+    <!-- Line: center → CLOUD (bottom-right) -->
+    <line x1="617" y1="163" x2="692" y2="228"
           stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-e" x1="565" y1="175" x2="492" y2="262"
+    <line class="flow-line flow-line-c" x1="617" y1="163" x2="692" y2="228"
           stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
+
+    <!-- Line: center → API (bottom-left) -->
+    <line x1="617" y1="163" x2="542" y2="228"
+          stroke="#8a2be2" stroke-width="1.2" opacity="0.25"/>
+    <line class="flow-line flow-line-d" x1="617" y1="163" x2="542" y2="228"
+          stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
 
     <!-- ── CENTRAL NODE ── -->
 
     <!-- Outer pulsing rings -->
-    <circle class="ring-pulse" cx="565" cy="175" r="28"
+    <circle class="ring-pulse" cx="617" cy="163" r="28"
             fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.6"/>
-    <circle class="ring-pulse-2" cx="565" cy="175" r="28"
+    <circle class="ring-pulse-2" cx="617" cy="163" r="28"
             fill="none" stroke="#8a2be2" stroke-width="1" opacity="0.4"/>
 
     <!-- Radar sweep -->
     <g class="radar-sweep">
-      <path d="M565,175 L565,135 A40,40 0 0,1 597,147 Z"
+      <path d="M617,163 L617,123 A40,40 0 0,1 645,135 Z"
             fill="#00f0ff" fill-opacity="0.08"/>
-      <line x1="565" y1="175" x2="565" y2="133"
+      <line x1="617" y1="163" x2="617" y2="121"
             stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
     </g>
 
     <!-- Central node body (pulsing) -->
     <g class="node-pulse" filter="url(#nodeGlow)">
       <!-- Core glow ring -->
-      <circle cx="565" cy="175" r="22"
+      <circle cx="617" cy="163" r="22"
               fill="#00f0ff" fill-opacity="0.08"
               stroke="#00f0ff" stroke-width="1.5" opacity="0.9"/>
       <!-- Inner fill -->
-      <circle cx="565" cy="175" r="14"
+      <circle cx="617" cy="163" r="14"
               fill="#0a1528" stroke="#00f0ff" stroke-width="2"/>
       <!-- Cross-hairs -->
-      <line x1="557" y1="175" x2="573" y2="175" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
-      <line x1="565" y1="167" x2="565" y2="183" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
+      <line x1="609" y1="163" x2="625" y2="163" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
+      <line x1="617" y1="155" x2="617" y2="171" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
       <!-- Center dot -->
-      <circle cx="565" cy="175" r="3" fill="#00f0ff"/>
+      <circle cx="617" cy="163" r="3" fill="#00f0ff"/>
     </g>
 
     <!-- Central label -->
-    <text x="565" y="205" class="font-inter"
+    <text x="617" y="193" class="font-inter"
           font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.5"
           fill="#00f0ff" opacity="0.6">CORE</text>
 
-    <!-- ── SATELLITE NODE A — top-right ── -->
+    <!-- ── SATELLITE NODE A — top-left (SNOW) ── -->
     <g class="sat-a" filter="url(#purpleGlow)">
-      <circle cx="638" cy="88" r="11"
-              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
-      <circle cx="638" cy="88" r="5" fill="#8a2be2" opacity="0.8"/>
-    </g>
-    <text x="638" y="72" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">JAVA</text>
-
-    <!-- ── SATELLITE NODE B — right ── -->
-    <g class="sat-b" filter="url(#purpleGlow)">
-      <circle cx="706" cy="175" r="11"
+      <circle cx="542" cy="98" r="11"
               fill="#0a1528" stroke="#00f0ff" stroke-width="1.5"/>
-      <circle cx="706" cy="175" r="5" fill="#00f0ff" opacity="0.8"/>
+      <circle cx="542" cy="98" r="5" fill="#00f0ff" opacity="0.8"/>
     </g>
-    <text x="726" y="179" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="start" letter-spacing="1"
-          fill="#00f0ff" opacity="0.8">API</text>
-
-    <!-- ── SATELLITE NODE C — bottom-right ── -->
-    <g class="sat-c" filter="url(#purpleGlow)">
-      <circle cx="638" cy="262" r="11"
-              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
-      <circle cx="638" cy="262" r="5" fill="#8a2be2" opacity="0.8"/>
-    </g>
-    <text x="638" y="283" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">CLOUD</text>
-
-    <!-- ── SATELLITE NODE D — top-left ── -->
-    <g class="sat-d" filter="url(#purpleGlow)">
-      <circle cx="492" cy="88" r="11"
-              fill="#0a1528" stroke="#00f0ff" stroke-width="1.5"/>
-      <circle cx="492" cy="88" r="5" fill="#00f0ff" opacity="0.8"/>
-    </g>
-    <text x="492" y="72" class="font-inter"
+    <text x="542" y="82" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#00f0ff" opacity="0.8">SNOW</text>
- 
-    <!-- ── SATELLITE NODE E — bottom-left ── -->
-    <g class="sat-e" filter="url(#purpleGlow)">
-      <circle cx="492" cy="262" r="11"
+
+    <!-- ── SATELLITE NODE B — top-right (JAVA / JS) ── -->
+    <g class="sat-b" filter="url(#purpleGlow)">
+      <circle cx="692" cy="98" r="11"
               fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
-      <circle cx="492" cy="262" r="5" fill="#8a2be2" opacity="0.8"/>
+      <circle cx="692" cy="98" r="5" fill="#8a2be2" opacity="0.8"/>
     </g>
-    <text x="492" y="283" class="font-inter"
+    <text x="692" y="82" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">JAVASCRIPT</text>
+          fill="#8a2be2" opacity="0.8">JAVA / JS</text>
+
+    <!-- ── SATELLITE NODE C — bottom-right (CLOUD) ── -->
+    <g class="sat-c" filter="url(#purpleGlow)">
+      <circle cx="692" cy="228" r="11"
+              fill="#0a1528" stroke="#00f0ff" stroke-width="1.5"/>
+      <circle cx="692" cy="228" r="5" fill="#00f0ff" opacity="0.8"/>
+    </g>
+    <text x="692" y="249" class="font-inter"
+          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#00f0ff" opacity="0.8">CLOUD</text>
+
+    <!-- ── SATELLITE NODE D — bottom-left (API) ── -->
+    <g class="sat-d" filter="url(#purpleGlow)">
+      <circle cx="542" cy="228" r="11"
+              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
+      <circle cx="542" cy="228" r="5" fill="#8a2be2" opacity="0.8"/>
+    </g>
+    <text x="542" y="249" class="font-inter"
+          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#8a2be2" opacity="0.8">API</text>
 
     <!-- ═══════════════════ BOTTOM — TELEMETRY FEED ═══════════════════ -->
 
