@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,13 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           MAX_REPOS: 10
-          SETTING_JSON: |
-            {
-              "username": "Nithish-o7",
-              "backgroundColor": "#0d1117",
-              "foregroundColor": "#00D4FF",
-              "type": "NORMAL"
-            }
+          SETTING_JSON: .github/3d-contrib-settings.json
 
       - name: Commit and push 3D contribution graph
         run: |
