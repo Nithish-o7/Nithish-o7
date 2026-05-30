@@ -258,40 +258,40 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-                    <!-- ASCII Art Name -->
-    <text font-family="'Courier New', Courier, Monaco, monospace" x="80" y="107" font-size="4.8" font-weight="700" fill="#00f0ff" xml:space="preserve">
-      <tspan x="80" dy="0">$$\   $$\ $$$$$$\ $$$$$$$$\ $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\          $$$$$$\  $$$$$$$$\ </tspan>
-      <tspan x="80" dy="10">$$$\  $$ |\_$$  _|\__$$  __|$$ |  $$ |\_$$  _|$$  __$$\ $$ |  $$ |        $$  __$$\ \____$$  |</tspan>
-      <tspan x="80" dy="10">$$$$\ $$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$ /  \__|$$ |  $$ |        $$ /  $$ |    $$  / </tspan>
-      <tspan x="80" dy="10">$$ $$\$$ |  $$ |     $$ |   $$$$$$$$ |  $$ |  \$$$$$$\  $$$$$$$$ |$$$$$$\ $$ |  $$ |   $$  /  </tspan>
-      <tspan x="80" dy="10">$$ \$$$$ |  $$ |     $$ |   $$  __$$ |  $$ |   \____$$\ $$  __$$ |\______|$$ |  $$ |  $$  /   </tspan>
-      <tspan x="80" dy="10">$$ |\$$$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$\   $$ |$$ |  $$ |        $$ |  $$ | $$  /    </tspan>
-      <tspan x="80" dy="10">$$ | \$$ |$$$$$$\    $$ |   $$ |  $$ |$$$$$$\ \$$$$$$  |$$ |  $$ |         $$$$$$  |$$  /     </tspan>
-      <tspan x="80" dy="10">\__|  \__|\______|   \__|   \__|  \__|\______| \______/ \__|  \__|         \______/ \__/      </tspan>
+                        <!-- ASCII Art Name -->
+    <text font-family="'Courier New', Courier, Monaco, monospace" x="30" y="80" font-size="6.5" font-weight="700" fill="#00f0ff" xml:space="preserve">
+      <tspan x="30" dy="0">$$\   $$\ $$$$$$\ $$$$$$$$\ $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\          $$$$$$\  $$$$$$$$\ </tspan>
+      <tspan x="30" dy="14">$$$\  $$ |\_$$  _|\__$$  __|$$ |  $$ |\_$$  _|$$  __$$\ $$ |  $$ |        $$  __$$\ \____$$  |</tspan>
+      <tspan x="30" dy="14">$$$$\ $$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$ /  \__|$$ |  $$ |        $$ /  $$ |    $$  / </tspan>
+      <tspan x="30" dy="14">$$ $$\$$ |  $$ |     $$ |   $$$$$$$$ |  $$ |  \$$$$$$\  $$$$$$$$ |$$$$$$\ $$ |  $$ |   $$  /  </tspan>
+      <tspan x="30" dy="14">$$ \$$$$ |  $$ |     $$ |   $$  __$$ |  $$ |   \____$$\ $$  __$$ |\______|$$ |  $$ |  $$  /   </tspan>
+      <tspan x="30" dy="14">$$ |\$$$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$\   $$ |$$ |  $$ |        $$ |  $$ | $$  /    </tspan>
+      <tspan x="30" dy="14">$$ | \$$ |$$$$$$\    $$ |   $$ |  $$ |$$$$$$\ \$$$$$$  |$$ |  $$ |         $$$$$$  |$$  /     </tspan>
+      <tspan x="30" dy="14">\__|  \__|\______|   \__|   \__|  \__|\______| \______/ \__|  \__|         \______/ \__/      </tspan>
     </text>
 
     <!-- Role tags -->
     <!-- Tag 1: ServiceNow -->
-    <rect x="32" y="225" width="90" height="20" rx="4"
+    <rect x="32" y="255" width="90" height="20" rx="4"
           fill="#8a2be2" fill-opacity="0.15"
           stroke="#8a2be2" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="77" y="239" class="font-inter"
+    <text x="77" y="269" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#cc88ff">SERVICENOW</text>
  
     <!-- Tag 2: Application Developer -->
-    <rect x="129" y="225" width="146" height="20" rx="4"
+    <rect x="129" y="255" width="146" height="20" rx="4"
           fill="#ff9500" fill-opacity="0.08"
           stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="202" y="239" class="font-inter"
+    <text x="202" y="269" class="font-inter"
           font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
           fill="#ff9500">APPLICATION DEVELOPER</text>
  
     <!-- Tag 3: Workflow Designer -->
-    <rect x="283" y="225" width="124" height="20" rx="4"
+    <rect x="283" y="255" width="124" height="20" rx="4"
           fill="#00d4ff" fill-opacity="0.08"
           stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="345" y="239" class="font-inter"
+    <text x="345" y="269" class="font-inter"
           font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
           fill="#00d4ff">WORKFLOW DESIGNER</text>
 
