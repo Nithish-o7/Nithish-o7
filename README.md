@@ -1,16 +1,197 @@
-## Hi there 👋
+<!-- ═══════════════════════════════════════════════════════════════
+     NITHISH KANNA · GITHUB PROFILE README  v3.0
+     Callsign  : NKD-01 / Nithish-o7
+     Aesthetic  : Cyber-Physical Mission Terminal · Minimal & Effective
+     Palette   : Radar Cyan #00D4FF · Alert Amber #FF9500 · Deep Space #080C10
+═══════════════════════════════════════════════════════════════ -->
 
-<!--
-**Nithish-o7/Nithish-o7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ HERO BANNER — Cloud & IoT Command Center            ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a href="https://github.com/Nithish-o7">
+  <img src="./banner.svg" width="800" alt="Nithish Kanna — Cloud & IoT Command Center"/>
+</a>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Nithish-o7&style=for-the-badge&color=00d4ff&label=◈+SIGNAL+RECEIVED&labelColor=0d1117" alt="Signal Count"/>
+
+</div>
+
+
+
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ FUN CREATIVE DEV SECTION                            ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+
+```js
+// ── process.env → NKD-01 ──────────────────────────────────────────────────
+const nithish = {
+  pronouns     : "he/him",
+  timezone     : "IST +05:30 | Tamil Nadu, India",
+  currentFocus : ["ServiceNow Scoped Apps", "IoT Networks", "Full-Stack Dev"],
+  learning     : ["REST API Integration", "Cloud-IoT Pipelines", "Agile Delivery"],
+  hackathon    : "SIH 2025 Finalist 🏆 — Project Guardians (IEADS)",
+  openTo       : ["Open Source", "Research Collabs", "Projects"],
+  funFact      : "I debug hardware with a multimeter AND a debugger. Both lie equally.",
+  coffeeToCode  : "1 cup → 200 lines → 1 bug fixed → 3 new bugs introduced",
+};
+
+while (nithish.alive) {
+  eat();  sleep();  code();  repeat();
+  if (nithish.curious) explore(new_tech);
+  if (nithish.stuck)   readDocs() || askStack();
+}
+// ─────────────────────────────────────────────────────────────────────────
+```
+
+
+
+---
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ FREQUENCY SPECTRUM — TECH STACK                     ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+**`LANGUAGES`**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**`SERVICENOW LAYER`**
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white)
+![Flow Designer](https://img.shields.io/badge/Flow_Designer-00D4FF?style=for-the-badge&logoColor=white)
+![Scoped App Dev](https://img.shields.io/badge/Scoped_App_Dev-003087?style=for-the-badge&logoColor=white)
+![GlideRecord](https://img.shields.io/badge/GlideRecord-FF9500?style=for-the-badge&logoColor=white)
+![Business Rules](https://img.shields.io/badge/Business_Rules-1d3f72?style=for-the-badge&logoColor=white)
+![Client Scripts](https://img.shields.io/badge/Client_Scripts-005f73?style=for-the-badge&logoColor=white)
+
+**`BACKEND & TOOLS`**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-FF6F00?style=for-the-badge&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+**`PLATFORMS & HARDWARE`**
+
+![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00878F?style=for-the-badge&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Neo-6M GPS](https://img.shields.io/badge/Neo--6M_GPS-0A2540?style=for-the-badge&logoColor=white)
+
+**`DESIGN & WORKFLOW`**
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Agile](https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+---
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ SYSTEM CONSOLE — LIVE STATS                         ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+<div align="center">
+
+<!-- Header label -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=2000&pause=600&color=00D4FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=22&lines=%5B+READING+TELEMETRY+...+%5D+→+GITHUB+API+CONNECTED;%5B+FETCHING+COMMIT+LOG+...+%5D+→+DATA+STREAM+LIVE;%5B+RENDERING+CONSOLE+...+%5D+→+DISPLAY+NOMINAL" alt="Console Boot"/>
+</a>
+
+<br/>
+
+<!-- Stats + Streak side by side -->
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
+&nbsp;
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nithish-o7&theme=tokyonight&hide_border=true&stroke=00D4FF&ring=00D4FF&fire=FF9500&currStreakLabel=00D4FF&sideLabels=a9b1d6&currStreakNum=e0e0e0&sideNums=e0e0e0&dates=5a7a8a&background=0d1117" alt="Streak Stats"/>
+
+</div>
+
+<div align="center">
+
+<!-- Top languages -->
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
+
+</div>
+
+<div align="center">
+
+<!-- Activity graph full width -->
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Nithish-o7&bg_color=0d1117&color=00D4FF&line=FF9500&point=e0e0e0&area=true&hide_border=true&area_color=0A1A25&title=◈ COMMIT FREQUENCY SCAN" alt="Activity Graph"/>
+
+</div>
+
+---
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ CONTRIBUTION MAP — PIXEL MATRIX                     ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
+</a>
+
+<!-- 3D Contribution Calendar — most visually unique available -->
+<img src="https://github-profile-3d-contrib.vercel.app/api?username=Nithish-o7&theme=tokyo-night" width="100%" alt="3D Contribution Calendar"/>
+
+<!-- Fallback: classic snake for dark/light -->
+<br/>
+
+<!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
+<!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+</picture>
+
+</div>
+
+> **`[SETUP]`** Add `.github/workflows/snake.yml` using [Platane/snk@v3](https://github.com/Platane/snk) for the snake.  
+> **`[SETUP]`** Add `.github/workflows/3d-contrib.yml` using [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) for the 3D map.
+
+---
+
+
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ FOOTER TRANSMISSION                                 ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+<div align="center">
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3500&pause=1000&color=5A7A8A&center=true&vCenter=true&width=680&lines=NKD-ENG-01+%C2%B7+Tamil+Nadu%2C+India+%C2%B7+IST+%2B5%3A30;Built+from+scratch.+Ships+to+production.;%5B+UPLINK+ACTIVE+%E2%80%94+TRANSMISSION+OPEN+%5D" alt="Footer Typing"/>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Nithish-o7&style=flat-square&color=00d4ff&label=profile+views" alt="Profile Views"/>
+
+<br/><br/>
+
+<!-- Trophy rack -->
+<img src="https://github-profile-trophy.vercel.app/?username=Nithish-o7&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4" alt="Trophies"/>
+
+</div>
