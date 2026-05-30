@@ -1,18 +1,18 @@
 <!-- ═══════════════════════════════════════════════════════════════
-     NITHISH KANNA · GITHUB PROFILE README  v3.0
-     Callsign  : NKD-01 / Nithish-o7
-     Aesthetic  : Cyber-Physical Mission Terminal · Minimal & Effective
-     Palette   : Radar Cyan #00D4FF · Alert Amber #FF9500 · Deep Space #080C10
+     NITHISH · GITHUB PROFILE README  v4.0
+     GitHub   : Nithish-o7
+     Aesthetic : Cyber-Physical Mission Terminal · Minimal & Effective
+     Palette  : Radar Cyan #00D4FF · Alert Amber #FF9500 · Deep Space #080C10
 ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!-- ▌ HERO BANNER — Cloud & IoT Command Center            ▐ -->
+<!-- ▌ HERO BANNER                                        ▐ -->
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="./banner.svg" width="800" alt="Nithish Kanna — Cloud & IoT Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg" width="800" alt="Nithish — Cloud & IoT Command Center"/>
 </a>
 
 <br/>
@@ -118,7 +118,7 @@ while (nithish.alive) {
 <br/>
 
 <!-- Stats + Streak side by side -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
+<img height="170" src="https://github-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
 &nbsp;
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nithish-o7&theme=tokyonight&hide_border=true&stroke=00D4FF&ring=00D4FF&fire=FF9500&currStreakLabel=00D4FF&sideLabels=a9b1d6&currStreakNum=e0e0e0&sideNums=e0e0e0&dates=5a7a8a&background=0d1117" alt="Streak Stats"/>
 
@@ -127,7 +127,7 @@ while (nithish.alive) {
 <div align="center">
 
 <!-- Top languages -->
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
+<img height="155" src="https://github-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
 
 </div>
 
@@ -151,10 +151,10 @@ while (nithish.alive) {
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
 </a>
 
-<!-- 3D Contribution Calendar — most visually unique available -->
-<img src="https://github-profile-3d-contrib.vercel.app/api?username=Nithish-o7&theme=tokyo-night" width="100%" alt="3D Contribution Calendar"/>
+<!-- 3D Contribution Calendar — generated via GitHub Actions (.github/workflows/3d-contrib.yml) -->
+<!-- Action: yoshi389111/github-profile-3d-contrib | Output: profile-3d-contrib/profile-green-animate.svg -->
+<img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Calendar"/>
 
-<!-- Fallback: classic snake for dark/light -->
 <br/>
 
 <!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
