@@ -258,52 +258,20 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-    <!-- Name — glitch ghost layer -->
-    <text class="name-ghost font-name"
-          x="42" y="132"
-          font-size="44" font-weight="600" letter-spacing="1"
-          fill="#8a2be2" opacity="0">Nithish</text>
-
-    <!-- Name — main -->
-    <text class="name-main font-name"
-          x="42" y="132"
-          font-size="44" font-weight="600" letter-spacing="1"
-          fill="#ffffff" filter="url(#nameGlow)">Nithish</text>
-
-    <!-- Cyan underline beneath name -->
-    <rect x="42" y="137" width="310" height="1.5" rx="1"
-          fill="url(#lineGrad1)" opacity="0.4"/>
-
-    <!-- Subtitle -->
-    <text class="subtitle font-inter"
-          x="44" y="164"
-          font-size="13.5" font-weight="500" letter-spacing="0.5"
-          fill="#8b949e" opacity="0.95">Application Developer  ·  Workflow  ·  Learner</text>
-
-    <!-- Role tags -->
-    <!-- Tag 1: ServiceNow -->
-    <rect x="42" y="182" width="90" height="20" rx="4"
-          fill="#8a2be2" fill-opacity="0.15"
-          stroke="#8a2be2" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="87" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#cc88ff">SERVICENOW</text>
- 
-    <!-- Tag 2: Application Developer -->
-    <rect x="138" y="182" width="146" height="20" rx="4"
-          fill="#ff9500" fill-opacity="0.08"
-          stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="211" y="196" class="font-inter"
-          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
-          fill="#ff9500">APPLICATION DEVELOPER</text>
- 
-    <!-- Tag 3: Workflow Designer -->
-    <rect x="290" y="182" width="124" height="20" rx="4"
-          fill="#00d4ff" fill-opacity="0.08"
-          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="352" y="196" class="font-inter"
-          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
-          fill="#00d4ff">WORKFLOW DESIGNER</text>
+        <!-- ASCII Art Name -->
+    <text class="font-mono" x="77" y="119" font-size="5.8" font-weight="700" fill="#00f0ff" filter="url(#nameGlow)" xml:space="preserve">
+      <tspan x="77" dy="0">$$\  $$\ $$\  $$\    $$\      $$\        $$\                        $$$$$$$$\</tspan>
+      <tspan x="77" dy="12">$$$\  $$ |\_|  $$ |   $$ |     \_|        $$ |                       \____$$  |</tspan>
+      <tspan x="77" dy="12">$$$$ \ $$ |$$\ $$$$$$\ $$$$$$$\ $$\ $$$$$$$\ $$$$$$$\   $$\   $$\ $$$$$$\   $$  /</tspan>
+      <tspan x="77" dy="12">$$ $$ \$$ |$$ |\_$$  _|\_$$  _||$$ |$$  _____|$$  __$$\  $$ |  $$ |\_$$  _|  $$  /</tspan>
+      <tspan x="77" dy="12">$$ \$$ $$ |$$ |  $$ |    $$ |  $$ |$$ /      $$ |  $$ |  $$ |  $$ |  $$ |   $$  /</tspan>
+      <tspan x="77" dy="12">$$ |\$$$ |$$ |  $$ |$$\ $$ |$$\$$ |$$ |      $$ |  $$ |  $$ |  $$ |  $$ |  $$  /</tspan>
+      <tspan x="77" dy="12">$$ | \$$ |$$ |  \$$$$  |\$$$$  |$$ |\$$$$$$$\ $$ |  $$ |  \$$$$$$$|  $$ |  $$  /</tspan>
+      <tspan x="77" dy="12">\__|  \__|\__|   \____/  \____/ \__| \_______|\__|  \__|   \____$$ |  \__|  \__/</tspan>
+      <tspan x="77" dy="12">                                                          $$\   $$ |</tspan>
+      <tspan x="77" dy="12">                                                          \$$$$$$  |</tspan>
+      <tspan x="77" dy="12">                                                           \______/</tspan>
+    </text>
 
 
     <!-- ═══════════════════ RIGHT SIDE — IoT NETWORK ═══════════════════ -->
