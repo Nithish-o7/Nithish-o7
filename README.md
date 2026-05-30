@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=3" width="800" alt="Nithish — Cloud & IoT Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=4" width="800" alt="Nithish — Cloud & IoT Command Center"/>
 </a>
 
 <br/>
@@ -163,8 +163,6 @@ while (nithish.alive) {
 </picture>
 
 </div>
-
-> **`[SETUP]`** Add `.github/workflows/snake.yml` using [Platane/snk@v3](https://github.com/Platane/snk) for the snake.
 
 ---
 
