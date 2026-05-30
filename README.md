@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="./banner.svg" width="800" alt="Nithish — Cloud & IoT Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=3" width="800" alt="Nithish — Cloud & IoT Command Center"/>
 </a>
 
 <br/>
@@ -118,7 +118,7 @@ while (nithish.alive) {
 <br/>
 
 <!-- Stats + Streak side by side -->
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.shion.dev/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=%E2%97%88+COMMIT+TELEMETRY&v=3" alt="GitHub Stats"/>
 &nbsp;
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nithish-o7&theme=tokyonight&hide_border=true&stroke=00D4FF&ring=00D4FF&fire=FF9500&currStreakLabel=00D4FF&sideLabels=a9b1d6&currStreakNum=e0e0e0&sideNums=e0e0e0&dates=5a7a8a&background=0d1117" alt="Streak Stats"/>
 
@@ -127,14 +127,14 @@ while (nithish.alive) {
 <div align="center">
 
 <!-- Top languages -->
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
+<img height="155" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=%E2%97%88+LANGUAGE+DISTRIBUTION&v=3" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
 
 <!-- Activity graph full width -->
-<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Nithish-o7&bg_color=0d1117&color=00D4FF&line=FF9500&point=e0e0e0&area=true&hide_border=true&area_color=0A1A25&title=◈ COMMIT FREQUENCY SCAN" alt="Activity Graph"/>
+<img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=Nithish-o7&bg_color=0d1117&color=00D4FF&line=FF9500&point=e0e0e0&area=true&hide_border=true&area_color=0A1A25&title=%E2%97%88%20COMMIT%20FREQUENCY%20SCAN&v=3" alt="Activity Graph"/>
 
 </div>
 
@@ -192,6 +192,6 @@ while (nithish.alive) {
 <br/><br/>
 
 <!-- Trophy rack -->
-<img src="https://github-profile-trophy.vercel.app/?username=Nithish-o7&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4" alt="Trophies"/>
+<img src="https://gh-trophy.cdnsoft.net/?username=Nithish-o7&theme=nord&no-frame=true&no-bg=true&column=7&margin-w=4&v=3" alt="Trophies"/>
 
 </div>

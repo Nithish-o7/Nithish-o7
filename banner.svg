@@ -64,7 +64,6 @@
   </defs>
 
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;display=swap');
 
     /* ── Base ── */
     .font-inter { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
