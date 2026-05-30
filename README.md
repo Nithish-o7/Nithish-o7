@@ -31,7 +31,7 @@
 
 
 ```js
-// ── process.env → Nithish-o7 ──────────────────────────────────────────────
+// ── about.env ─────────────────────────────────────────────────────────────
 const nithish = {
   pronouns     : "he/him",
   timezone     : "IST +05:30 | India",

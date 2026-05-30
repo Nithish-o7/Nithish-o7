@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 900 480" width="900" height="480" role="img"
+     viewBox="0 0 900 400" width="900" height="400" role="img"
      aria-label="Nithish-O7 — Command Center Banner">
 
   <defs>
@@ -22,10 +22,10 @@
       <stop offset="100%" stop-color="#0d0a1e" stop-opacity="0.65"/>
     </linearGradient>
 
-    <!-- Cyan glow filter for ASCII name -->
-    <filter id="nameGlow" x="-5%" y="-30%" width="110%" height="160%">
-      <feGaussianBlur stdDeviation="2.5" result="blur1"/>
-      <feGaussianBlur stdDeviation="6" result="blur2"/>
+    <!-- Cyan glow filter for ASCII name — subtle -->
+    <filter id="nameGlow" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur1"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur2"/>
       <feMerge>
         <feMergeNode in="blur2"/>
         <feMergeNode in="blur1"/>
@@ -62,7 +62,7 @@
 
     <!-- Clip path -->
     <clipPath id="svgClip">
-      <rect width="900" height="480" rx="14"/>
+      <rect width="900" height="400" rx="14"/>
     </clipPath>
 
     <!-- Grid pattern -->
@@ -185,8 +185,8 @@
 
     /* ── Scan line ── */
     @keyframes scanLine {
-      0%   { transform: translateY(-480px); opacity: 0.035; }
-      100% { transform: translateY(480px);  opacity: 0.035; }
+      0%   { transform: translateY(-400px); opacity: 0.035; }
+      100% { transform: translateY(400px);  opacity: 0.035; }
     }
     .scan-line { animation: scanLine 5.5s linear infinite; }
 
@@ -207,22 +207,22 @@
 
   <!-- ═══════════════════ BACKGROUND ═══════════════════ -->
   <g clip-path="url(#svgClip)">
-    <rect width="900" height="480" fill="url(#bgGlow)"/>
-    <rect class="bg-grid" width="900" height="480" fill="url(#grid)"/>
-    <rect width="900" height="480" fill="url(#hexGrid)" opacity="0.6"/>
+    <rect width="900" height="400" fill="url(#bgGlow)"/>
+    <rect class="bg-grid" width="900" height="400" fill="url(#grid)"/>
+    <rect width="900" height="400" fill="url(#hexGrid)" opacity="0.6"/>
 
     <!-- Scan line sweep -->
     <rect class="scan-line" x="0" y="0" width="900" height="3" fill="#00f0ff"/>
 
     <!-- Ambient glows -->
-    <ellipse cx="250" cy="180" rx="260" ry="160"
+    <ellipse cx="250" cy="170" rx="240" ry="140"
              fill="#00d4ff" opacity="0.025"/>
-    <ellipse cx="718" cy="210" rx="200" ry="150"
+    <ellipse cx="718" cy="200" rx="190" ry="140"
              fill="#8a2be2" opacity="0.03"/>
 
     <!-- Top / bottom accent lines -->
     <line x1="0" y1="1"   x2="900" y2="1"   stroke="#00f0ff" stroke-width="1.5" opacity="0.55"/>
-    <line x1="0" y1="479" x2="900" y2="479" stroke="#8a2be2" stroke-width="1.5" opacity="0.55"/>
+    <line x1="0" y1="399" x2="900" y2="399" stroke="#8a2be2" stroke-width="1.5" opacity="0.55"/>
 
     <!-- Vertical divider between panels -->
     <line class="divider-line" x1="520" y1="16" x2="520" y2="378"
@@ -240,19 +240,19 @@
     </g>
     <!-- Corner brackets BL -->
     <g class="corner-br" opacity="0.75">
-      <line x1="14" y1="466" x2="42" y2="466" stroke="#8a2be2" stroke-width="1.8"/>
-      <line x1="14" y1="466" x2="14" y2="438" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="14" y1="386" x2="42" y2="386" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="14" y1="386" x2="14" y2="358" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets BR -->
     <g class="corner-br" opacity="0.75">
-      <line x1="886" y1="466" x2="858" y2="466" stroke="#8a2be2" stroke-width="1.8"/>
-      <line x1="886" y1="466" x2="886" y2="438" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="886" y1="386" x2="858" y2="386" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="886" y1="386" x2="886" y2="358" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
 
     <!-- ═══════════════════ LEFT PANEL — PROFILE CARD ═══════════════════ -->
 
     <!-- Glass card -->
-    <rect x="16" y="16" width="490" height="362" rx="10"
+    <rect x="16" y="16" width="490" height="372" rx="10"
           fill="url(#panelGrad)"
           stroke="#1e3a5f" stroke-width="1" opacity="0.9"/>
     <!-- Card top highlight -->
@@ -302,78 +302,74 @@
     <line x1="26" y1="188" x2="500" y2="188"
           stroke="#00f0ff" stroke-width="0.6" opacity="0.2"/>
 
-    <!-- ── Info row ── -->
-    <!-- Location -->
-    <text x="26" y="208" class="font-inter"
-          font-size="9.5" font-weight="500" letter-spacing="0.5"
-          fill="#8b949e">
-      <tspan fill="#00f0ff" font-weight="700">◈</tspan>  Tamil Nadu, India  ·  IST +05:30
-    </text>
-
-    <!-- Focus line -->
-    <text x="26" y="226" class="font-inter"
-          font-size="9.5" font-weight="500" letter-spacing="0.5"
-          fill="#8b949e">
-      <tspan fill="#ff9500" font-weight="700">◈</tspan>  ServiceNow  ·  App Dev  ·  Workflow Automation
-    </text>
-
-    <!-- Status line -->
-    <text x="26" y="244" class="font-inter"
-          font-size="9.5" font-weight="500" letter-spacing="0.5"
-          fill="#8b949e">
-      <tspan fill="#39d353" font-weight="700">◈</tspan>  Open to Collabs  ·  REST APIs  ·  Agile Delivery
-    </text>
+    <!-- ── TERMINAL READOUT — replaces info rows ── -->
+    <!-- Terminal shell background -->
+    <rect x="26" y="196" width="474" height="72" rx="6"
+          fill="#060e1a" fill-opacity="0.85"
+          stroke="#1a3352" stroke-width="0.8"/>
+    <!-- Terminal top bar -->
+    <rect x="26" y="196" width="474" height="14" rx="6"
+          fill="#0d1b2e" fill-opacity="1"/>
+    <!-- Terminal dots -->
+    <circle cx="38" cy="203" r="3" fill="#ff5f57"/>
+    <circle cx="48" cy="203" r="3" fill="#febc2e"/>
+    <circle cx="58" cy="203" r="3" fill="#28c840"/>
+    <!-- Terminal title -->
+    <text x="261" y="206" class="font-mono" font-size="7" text-anchor="middle"
+          fill="#4a6a8a" letter-spacing="1">nithish@o7 ~ profile.sh</text>
+    <!-- Terminal lines -->
+    <text x="36" y="223" class="font-mono" font-size="8.5" fill="#39d353">$</text>
+    <text x="46" y="223" class="font-mono" font-size="8.5" fill="#8b949e"> cat</text>
+    <text x="74" y="223" class="font-mono" font-size="8.5" fill="#00f0ff"> /dev/nithish</text>
+    <text x="36" y="237" class="font-mono" font-size="8" fill="#5a7a8a">  ROLE    </text>
+    <text x="84" y="237" class="font-mono" font-size="8" fill="#4a6a8a">→</text>
+    <text x="95" y="237" class="font-mono" font-size="8" fill="#e0aaff">  ServiceNow Developer</text>
+    <text x="36" y="249" class="font-mono" font-size="8" fill="#5a7a8a">  BASE    </text>
+    <text x="84" y="249" class="font-mono" font-size="8" fill="#4a6a8a">→</text>
+    <text x="95" y="249" class="font-mono" font-size="8" fill="#ffb74d">  Tamil Nadu, India / IST+5:30</text>
+    <text x="36" y="261" class="font-mono" font-size="8" fill="#5a7a8a">  STATUS  </text>
+    <text x="84" y="261" class="font-mono" font-size="8" fill="#4a6a8a">→</text>
+    <text x="95" y="261" class="font-mono" font-size="8" fill="#67e8f9">  Building · Automating · Shipping</text>
 
     <!-- ── Separator ── -->
-    <line x1="26" y1="260" x2="500" y2="260"
+    <line x1="26" y1="278" x2="500" y2="278"
           stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
 
     <!-- ── Role Badge Tags ── -->
     <!-- Tag 1: ServiceNow -->
     <g class="badge-1">
-      <rect x="26" y="272" width="105" height="26" rx="5"
+      <rect x="26" y="290" width="105" height="26" rx="5"
             fill="#8a2be2" fill-opacity="0.25"
             stroke="#8a2be2" stroke-width="1" stroke-opacity="0.8"/>
-      <text x="78" y="289" class="font-inter"
+      <text x="78" y="307" class="font-inter"
             font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.5"
             fill="#e0aaff">SERVICENOW</text>
     </g>
 
     <!-- Tag 2: App Developer -->
     <g class="badge-2">
-      <rect x="141" y="272" width="145" height="26" rx="5"
+      <rect x="141" y="290" width="145" height="26" rx="5"
             fill="#ff9500" fill-opacity="0.15"
             stroke="#ff9500" stroke-width="1" stroke-opacity="0.75"/>
-      <text x="213" y="289" class="font-inter"
+      <text x="213" y="307" class="font-inter"
             font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1"
             fill="#ffb74d">APP DEVELOPER</text>
     </g>
 
     <!-- Tag 3: Workflow Designer -->
     <g class="badge-3">
-      <rect x="296" y="272" width="150" height="26" rx="5"
+      <rect x="296" y="290" width="150" height="26" rx="5"
             fill="#00d4ff" fill-opacity="0.12"
             stroke="#00d4ff" stroke-width="1" stroke-opacity="0.75"/>
-      <text x="371" y="289" class="font-inter"
+      <text x="371" y="307" class="font-inter"
             font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1"
             fill="#67e8f9">WORKFLOW DESIGN</text>
     </g>
 
-    <!-- ── Separator ── -->
-    <line x1="26" y1="312" x2="500" y2="312"
-          stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
-
-    <!-- ── Quote line ── -->
-    <text x="261" y="338" class="font-mono"
-          font-size="9" font-weight="500" text-anchor="middle" letter-spacing="0.5"
-          fill="#5a7a8a" font-style="italic">
-      "Build it right. Ship it fast. Automate everything."
-    </text>
-
     <!-- ═══════════════════ RIGHT PANEL — DEV ECOSYSTEM ═══════════════════ -->
 
     <!-- Right glass card -->
-    <rect x="530" y="16" width="354" height="362" rx="10"
+    <rect x="530" y="16" width="354" height="372" rx="10"
           fill="url(#panelGradR)"
           stroke="#2d1b4e" stroke-width="1" opacity="0.9"/>
     <rect x="531" y="17" width="352" height="1" rx="1"
@@ -451,7 +447,7 @@
           font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
           fill="#8a2be2" opacity="0.9">JAVA/JS</text>
 
-    <!-- ── SATELLITE NODE C — bottom-right (CLOUD) ── -->
+    <!-- ── SATELLITE NODE C — bottom-right (AUTOMATION) ── -->
     <g class="sat-c" filter="url(#purpleGlow)">
       <circle cx="816" cy="285" r="13"
               fill="#070d1a" stroke="#00f0ff" stroke-width="1.8"/>
@@ -459,7 +455,7 @@
     </g>
     <text x="816" y="313" class="font-inter"
           font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff" opacity="0.9">CLOUD</text>
+          fill="#00f0ff" opacity="0.9">AUTO</text>
 
     <!-- ── SATELLITE NODE D — bottom-left (API) ── -->
     <g class="sat-d" filter="url(#purpleGlow)">
@@ -470,30 +466,6 @@
     <text x="620" y="313" class="font-inter"
           font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
           fill="#8a2be2" opacity="0.9">API</text>
-
-    <!-- ═══════════════════ BOTTOM BAR ═══════════════════ -->
-    <rect x="16" y="390" width="868" height="70" rx="10"
-          fill="url(#bottomGrad)"
-          stroke="#1a2540" stroke-width="1" opacity="0.95"/>
-    <rect x="17" y="391" width="866" height="1" rx="1"
-          fill="#58a6ff" opacity="0.15"/>
-
-    <!-- Bottom quote -->
-    <text x="450" y="424" class="font-mono"
-          font-size="12.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8b949e">
-      "If at first you don't succeed, try, try again."
-    </text>
-
-    <!-- Bottom timestamp left -->
-    <text x="30" y="447" class="font-inter"
-          font-size="8" font-weight="500" letter-spacing="1"
-          fill="#3a6a8a" opacity="0.9">[ UPLINK ACTIVE ]</text>
-
-    <!-- Bottom timestamp right -->
-    <text x="870" y="447" class="font-inter"
-          font-size="8" font-weight="500" text-anchor="end" letter-spacing="1"
-          fill="#3a6a8a" opacity="0.9">NITHISH-O7  ·  IST +05:30  ·  2026</text>
 
   </g>
 </svg>
