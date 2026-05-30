@@ -1,39 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 800 400" width="800" height="400" role="img"
-     aria-label="Nithish — Application Developer Command Center Banner">
+     viewBox="0 0 900 480" width="900" height="480" role="img"
+     aria-label="Nithish-O7 — Command Center Banner">
 
   <defs>
-    <!-- Background radial glow -->
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%"   stop-color="#121824" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
+    <!-- Deep space background gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%"   stop-color="#0d1b2a" stop-opacity="1"/>
+      <stop offset="70%"  stop-color="#0a1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#060d13" stop-opacity="1"/>
     </radialGradient>
 
-    <!-- Left card glass gradient -->
-    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#21262d" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#161b22" stop-opacity="0.4"/>
+    <!-- Left panel gradient -->
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0f1e2e" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a1520" stop-opacity="0.65"/>
     </linearGradient>
 
-    <!-- Cyan glow filter for name -->
-    <filter id="nameGlow" x="-20%" y="-40%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <!-- Right panel gradient -->
+    <linearGradient id="panelGradR" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#15102a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0d0a1e" stop-opacity="0.65"/>
+    </linearGradient>
+
+    <!-- Cyan glow filter for ASCII name -->
+    <filter id="nameGlow" x="-5%" y="-30%" width="110%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur1"/>
+      <feGaussianBlur stdDeviation="6" result="blur2"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Soft glow for central node -->
+    <!-- Node glow -->
     <filter id="nodeGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Purple glow filter -->
+    <!-- Purple glow -->
     <filter id="purpleGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -42,394 +51,449 @@
       </feMerge>
     </filter>
 
-    <!-- Clip for whole SVG -->
+    <!-- Subtle glow for badges -->
+    <filter id="badgeGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip path -->
     <clipPath id="svgClip">
-      <rect width="800" height="400" rx="12"/>
+      <rect width="900" height="480" rx="14"/>
     </clipPath>
 
     <!-- Grid pattern -->
-    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d4ff" stroke-width="0.2" opacity="0.08"/>
+    <pattern id="grid" x="0" y="0" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#00d4ff" stroke-width="0.18" opacity="0.1"/>
     </pattern>
 
-    <!-- Data flow dash gradient -->
+    <!-- Hex grid pattern -->
+    <pattern id="hexGrid" x="0" y="0" width="30" height="52" patternUnits="userSpaceOnUse">
+      <path d="M15,0 L30,8.66 L30,26 L15,34.64 L0,26 L0,8.66 Z" fill="none" stroke="#8a2be2" stroke-width="0.12" opacity="0.07"/>
+    </pattern>
+
+    <!-- Data flow gradients -->
     <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#8a2be2" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.9"/>
+      <stop offset="0%"   stop-color="#8a2be2" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.95"/>
     </linearGradient>
     <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#00f0ff" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.8"/>
+      <stop offset="0%"   stop-color="#00f0ff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Bottom bar gradient -->
+    <linearGradient id="bottomGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0f1e2e" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#15102a" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0f1e2e" stop-opacity="0.9"/>
     </linearGradient>
   </defs>
 
   <style>
-
-    /* ── Base ── */
     .font-inter { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
-    .font-name { font-family: 'SignPainter-HouseScript', 'SignPainter', 'Brush Script MT', 'Georgia', cursive; font-weight: 600; }
-    .font-mono { font-family: 'Share Tech Mono', 'Courier New', Courier, Monaco, monospace; }
+    .font-mono  { font-family: 'Share Tech Mono', 'Courier New', Courier, Monaco, monospace; }
 
-    /* ── Radar sweep animation ── */
+    /* ── Radar sweep ── */
     @keyframes radarSweep {
-      0%   { transform: rotate(0deg);   opacity: 0.8; }
-      100% { transform: rotate(360deg); opacity: 0.8; }
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .radar-sweep {
+      transform-origin: 718px 205px;
+      animation: radarSweep 3.5s linear infinite;
     }
 
     /* ── Central node pulse ── */
     @keyframes nodePulse {
       0%   { transform: scale(1);    opacity: 1; }
-      50%  { transform: scale(1.18); opacity: 0.65; }
+      50%  { transform: scale(1.2);  opacity: 0.6; }
       100% { transform: scale(1);    opacity: 1; }
     }
     .node-pulse {
-      transform-origin: 617px 163px;
+      transform-origin: 718px 205px;
       animation: nodePulse 2.4s ease-in-out infinite;
     }
 
     /* ── Outer ring pulse ── */
     @keyframes ringPulse {
-      0%   { r: 28; opacity: 0.6; }
-      50%  { r: 44; opacity: 0.0; }
-      100% { r: 28; opacity: 0.6; }
+      0%   { r: 30; opacity: 0.7; }
+      50%  { r: 52; opacity: 0.0; }
+      100% { r: 30; opacity: 0.7; }
     }
-    .ring-pulse {
-      animation: ringPulse 2.4s ease-out infinite;
-    }
-    @keyframes ringPulse2 {
-      0%   { r: 28; opacity: 0.4; }
-      50%  { r: 58; opacity: 0.0; }
-      100% { r: 28; opacity: 0.4; }
-    }
-    .ring-pulse-2 {
-      animation: ringPulse2 2.4s ease-out 0.8s infinite;
-    }
+    .ring-pulse { animation: ringPulse 2.4s ease-out infinite; }
 
-    /* ── Satellite node glow ── */
+    @keyframes ringPulse2 {
+      0%   { r: 30; opacity: 0.4; }
+      50%  { r: 64; opacity: 0.0; }
+      100% { r: 30; opacity: 0.4; }
+    }
+    .ring-pulse-2 { animation: ringPulse2 2.4s ease-out 0.8s infinite; }
+
+    /* ── Satellite pulse ── */
     @keyframes satPulse {
       0%,100% { opacity: 1; }
-      50%      { opacity: 0.4; }
+      50%     { opacity: 0.35; }
     }
-    .sat-a { animation: satPulse 3.1s ease-in-out 0.0s infinite; }
-    .sat-b { animation: satPulse 3.1s ease-in-out 0.7s infinite; }
-    .sat-c { animation: satPulse 3.1s ease-in-out 1.4s infinite; }
-    .sat-d { animation: satPulse 3.1s ease-in-out 2.1s infinite; }
-    .sat-e { animation: satPulse 3.1s ease-in-out 2.8s infinite; }
+    .sat-a { animation: satPulse 3.2s ease-in-out 0.0s infinite; }
+    .sat-b { animation: satPulse 3.2s ease-in-out 0.8s infinite; }
+    .sat-c { animation: satPulse 3.2s ease-in-out 1.6s infinite; }
+    .sat-d { animation: satPulse 3.2s ease-in-out 2.4s infinite; }
 
-    /* ── Data flow on lines ── */
+    /* ── Data flow ── */
     @keyframes flowDash {
-      0%   { stroke-dashoffset: 120; }
-      100% { stroke-dashoffset: 0;   }
+      0%   { stroke-dashoffset: 140; }
+      100% { stroke-dashoffset: 0; }
     }
-    .flow-line {
-      stroke-dasharray: 6 5;
-      animation: flowDash 1.8s linear infinite;
-    }
+    .flow-line   { stroke-dasharray: 6 5; animation: flowDash 1.8s linear infinite; }
     .flow-line-b { animation-delay: 0.45s; }
     .flow-line-c { animation-delay: 0.9s;  }
     .flow-line-d { animation-delay: 1.35s; }
-    .flow-line-e { animation-delay: 1.8s; }
 
-    /* Telemetry keyframes removed - static quote used in bottom bar */
-
-    /* ── Radar sweep ── */
-    .radar-sweep {
-      transform-origin: 617px 163px;
-      animation: radarSweep 3.5s linear infinite;
-    }
-
-    /* ── Glitch effect on name ── */
+    /* ── Glitch effect on ASCII name ── */
     @keyframes glitch1 {
-      0%,90%,100% { clip-path: none; transform: translate(0); }
-      91%          { clip-path: inset(10% 0 70% 0); transform: translate(-3px, 0); }
-      93%          { clip-path: inset(60% 0 10% 0); transform: translate(3px, 0);  }
-      95%          { clip-path: none; transform: translate(0); }
+      0%,88%,100% { clip-path: none; transform: translate(0); }
+      89%          { clip-path: inset(8% 0 72% 0);  transform: translate(-2px, 0); }
+      91%          { clip-path: inset(58% 0 8% 0);  transform: translate(2px, 0);  }
+      93%          { clip-path: none; transform: translate(0); }
     }
     @keyframes glitch2 {
-      0%,92%,100% { clip-path: none; transform: translate(0); opacity: 0; }
-      93%          { clip-path: inset(20% 0 50% 0); transform: translate(4px, 0); opacity: 0.7; }
-      95%          { clip-path: inset(50% 0 20% 0); transform: translate(-4px,0); opacity: 0.7; }
-      96%          { opacity: 0; }
+      0%,90%,100% { clip-path: none; transform: translate(0); opacity: 0; }
+      91%          { clip-path: inset(20% 0 48% 0); transform: translate(3px, 0); opacity: 0.55; }
+      93%          { clip-path: inset(48% 0 20% 0); transform: translate(-3px,0); opacity: 0.55; }
+      95%          { opacity: 0; }
     }
-    .name-main  { animation: glitch1 6s steps(1) infinite; }
-    .name-ghost { animation: glitch2 6s steps(1) infinite; fill: #8a2be2; }
-
-    /* ── Subtitle fade in ── */
-    @keyframes subtitleFade {
-      0%  { opacity: 0; transform: translateX(-10px); }
-      100%{ opacity: 1; transform: translateX(0); }
-    }
-    .subtitle { animation: subtitleFade 1.2s ease-out 0.4s both; }
+    .name-main  { animation: glitch1 7s steps(1) infinite; }
+    .name-ghost { animation: glitch2 7s steps(1) infinite; fill: #9b59b6; }
 
     /* ── Grid shimmer ── */
     @keyframes gridShimmer {
-      0%,100% { opacity: 0.4; }
-      50%     { opacity: 0.9; }
+      0%,100% { opacity: 0.35; }
+      50%     { opacity: 0.85; }
     }
-    .bg-grid { animation: gridShimmer 8s ease-in-out infinite; }
+    .bg-grid { animation: gridShimmer 9s ease-in-out infinite; }
 
-    /* ── Corner bracket blink ── */
+    /* ── Corner blink ── */
     @keyframes bracketBlink {
       0%,100% { opacity: 1; }
       50%     { opacity: 0.2; }
     }
-    .corner-br { animation: bracketBlink 2s ease-in-out infinite; }
+    .corner-br { animation: bracketBlink 2.2s ease-in-out infinite; }
 
     /* ── Scan line ── */
     @keyframes scanLine {
-      0%   { transform: translateY(-400px); opacity: 0.04; }
-      100% { transform: translateY(400px);  opacity: 0.04; }
+      0%   { transform: translateY(-480px); opacity: 0.035; }
+      100% { transform: translateY(480px);  opacity: 0.035; }
     }
-    .scan-line { animation: scanLine 5s linear infinite; }
+    .scan-line { animation: scanLine 5.5s linear infinite; }
 
     /* ── Status dot blink ── */
     @keyframes statusBlink {
       0%,100% { opacity: 1; }
-      50%     { opacity: 0; }
+      50%     { opacity: 0.1; }
     }
-    .status-dot { animation: statusBlink 1.1s ease-in-out infinite; }
+    .status-dot { animation: statusBlink 1.2s ease-in-out infinite; }
+
+    /* ── Divider glow pulse ── */
+    @keyframes dividerPulse {
+      0%,100% { opacity: 0.3; }
+      50%     { opacity: 0.7; }
+    }
+    .divider-line { animation: dividerPulse 3s ease-in-out infinite; }
   </style>
 
   <!-- ═══════════════════ BACKGROUND ═══════════════════ -->
   <g clip-path="url(#svgClip)">
-    <rect width="800" height="400" fill="url(#bgGlow)"/>
-    <!-- Grid overlay -->
-    <rect class="bg-grid" width="800" height="400" fill="url(#grid)"/>
+    <rect width="900" height="480" fill="url(#bgGlow)"/>
+    <rect class="bg-grid" width="900" height="480" fill="url(#grid)"/>
+    <rect width="900" height="480" fill="url(#hexGrid)" opacity="0.6"/>
 
     <!-- Scan line sweep -->
-    <rect class="scan-line" x="0" y="0" width="800" height="3" fill="#00f0ff"/>
+    <rect class="scan-line" x="0" y="0" width="900" height="3" fill="#00f0ff"/>
 
-    <!-- Subtle center bloom -->
-    <ellipse cx="400" cy="195" rx="340" ry="200"
-             fill="none" stroke="#00f0ff" stroke-width="0.5" opacity="0.06"/>
-    <ellipse cx="400" cy="195" rx="220" ry="130"
-             fill="none" stroke="#8a2be2" stroke-width="0.5" opacity="0.08"/>
+    <!-- Ambient glows -->
+    <ellipse cx="250" cy="180" rx="260" ry="160"
+             fill="#00d4ff" opacity="0.025"/>
+    <ellipse cx="718" cy="210" rx="200" ry="150"
+             fill="#8a2be2" opacity="0.03"/>
 
-    <!-- Top edge accent line -->
-    <line x1="0" y1="1" x2="800" y2="1" stroke="#00f0ff" stroke-width="1.5" opacity="0.5"/>
-    <!-- Bottom edge accent line -->
-    <line x1="0" y1="399" x2="800" y2="399" stroke="#8a2be2" stroke-width="1.5" opacity="0.5"/>
+    <!-- Top / bottom accent lines -->
+    <line x1="0" y1="1"   x2="900" y2="1"   stroke="#00f0ff" stroke-width="1.5" opacity="0.55"/>
+    <line x1="0" y1="479" x2="900" y2="479" stroke="#8a2be2" stroke-width="1.5" opacity="0.55"/>
 
-    <!-- Vertical divider -->
-    <line x1="440" y1="20" x2="440" y2="295"
-          stroke="#00f0ff" stroke-width="0.8" opacity="0.25"/>
+    <!-- Vertical divider between panels -->
+    <line class="divider-line" x1="520" y1="16" x2="520" y2="378"
+          stroke="#00f0ff" stroke-width="0.8"/>
 
     <!-- Corner brackets TL -->
-    <g class="corner-br" opacity="0.7">
-      <line x1="12" y1="12" x2="36" y2="12" stroke="#00f0ff" stroke-width="1.5"/>
-      <line x1="12" y1="12" x2="12" y2="36" stroke="#00f0ff" stroke-width="1.5"/>
+    <g class="corner-br" opacity="0.75">
+      <line x1="14" y1="14" x2="42" y2="14" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="14" y1="14" x2="14" y2="42" stroke="#00f0ff" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets TR -->
-    <g class="corner-br" opacity="0.7">
-      <line x1="788" y1="12" x2="764" y2="12" stroke="#00f0ff" stroke-width="1.5"/>
-      <line x1="788" y1="12" x2="788" y2="36" stroke="#00f0ff" stroke-width="1.5"/>
+    <g class="corner-br" opacity="0.75">
+      <line x1="886" y1="14" x2="858" y2="14" stroke="#00f0ff" stroke-width="1.8"/>
+      <line x1="886" y1="14" x2="886" y2="42" stroke="#00f0ff" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets BL -->
-    <g class="corner-br" opacity="0.7">
-      <line x1="12" y1="388" x2="36" y2="388" stroke="#8a2be2" stroke-width="1.5"/>
-      <line x1="12" y1="388" x2="12" y2="364" stroke="#8a2be2" stroke-width="1.5"/>
+    <g class="corner-br" opacity="0.75">
+      <line x1="14" y1="466" x2="42" y2="466" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="14" y1="466" x2="14" y2="438" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
     <!-- Corner brackets BR -->
-    <g class="corner-br" opacity="0.7">
-      <line x1="788" y1="388" x2="764" y2="388" stroke="#8a2be2" stroke-width="1.5"/>
-      <line x1="788" y1="388" x2="788" y2="364" stroke="#8a2be2" stroke-width="1.5"/>
+    <g class="corner-br" opacity="0.75">
+      <line x1="886" y1="466" x2="858" y2="466" stroke="#8a2be2" stroke-width="1.8"/>
+      <line x1="886" y1="466" x2="886" y2="438" stroke="#8a2be2" stroke-width="1.8"/>
     </g>
 
-    <!-- ═══════════════════ LEFT SIDE — PROFILE CARD ═══════════════════ -->
+    <!-- ═══════════════════ LEFT PANEL — PROFILE CARD ═══════════════════ -->
 
-    <!-- Glass card background -->
-    <rect x="22" y="30" width="395" height="265" rx="10"
-          fill="url(#glassGrad)"
-          stroke="#30363d" stroke-width="1" opacity="0.95"/>
-    <!-- Card inner highlight top -->
-    <rect x="23" y="31" width="393" height="1" rx="1"
-          fill="#58a6ff" opacity="0.2"/>
+    <!-- Glass card -->
+    <rect x="16" y="16" width="490" height="362" rx="10"
+          fill="url(#panelGrad)"
+          stroke="#1e3a5f" stroke-width="1" opacity="0.9"/>
+    <!-- Card top highlight -->
+    <rect x="17" y="17" width="488" height="1" rx="1"
+          fill="#58a6ff" opacity="0.25"/>
 
     <!-- Card header strip -->
-    <rect x="22" y="30" width="395" height="32" rx="10"
-          fill="#21262d" fill-opacity="0.8"/>
-    <line x1="22" y1="62" x2="417" y2="62" stroke="#30363d" stroke-width="1" opacity="0.9"/>
+    <rect x="16" y="16" width="490" height="36" rx="10"
+          fill="#0d1b2e" fill-opacity="0.9"/>
+    <line x1="16" y1="52" x2="506" y2="52" stroke="#1e3a5f" stroke-width="1" opacity="1"/>
 
-    <!-- Card header text -->
-    <text x="42" y="50" class="font-inter"
-          font-size="9" font-weight="600" letter-spacing="3"
-          fill="#58a6ff" opacity="0.9">NITHISH-O7  ·  COMMAND INTERFACE  ·  v4.0</text>
+    <!-- Header label -->
+    <text x="36" y="38" class="font-inter"
+          font-size="9" font-weight="700" letter-spacing="3.5"
+          fill="#58a6ff" opacity="0.95">NITHISH-O7  ·  COMMAND INTERFACE  ·  v5.0</text>
 
     <!-- Status dot -->
-    <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
+    <circle class="status-dot" cx="488" cy="34" r="4.5" fill="#39d353"/>
 
-                                <!-- ASCII Art Name -->
-    <text font-family="'Courier New', Courier, Monaco, monospace" x="25" y="80" font-size="9.0" font-weight="700" fill="#00f0ff" xml:space="preserve">
-      <tspan x="25" dy="0">███╗   ██╗██╗████████╗██╗  ██╗██╗███████╗██╗  ██╗       ██████╗ ███████╗</tspan>
-      <tspan x="25" dy="19">████╗  ██║██║╚══██╔══╝██║  ██║██║██╔════╝██║  ██║      ██╔═══██╗╚════██║</tspan>
-      <tspan x="25" dy="19">██╔██╗ ██║██║   ██║   ███████║██║███████╗███████║█████╗██║   ██║    ██╔╝</tspan>
-      <tspan x="25" dy="19">██║╚██╗██║██║   ██║   ██╔══██║██║╚════██║██╔══██║╚════╝██║   ██║   ██╔╝ </tspan>
-      <tspan x="25" dy="19">██║ ╚████║██║   ██║   ██║  ██║██║███████║██║  ██║      ╚██████╔╝   ██║  </tspan>
-      <tspan x="25" dy="19">╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝       ╚═════╝    ╚═╝  </tspan>
+    <!-- ── ASCII Art Name ── -->
+    <!-- Ghost layer for glitch effect -->
+    <text class="name-ghost font-mono" x="22" y="77"
+          font-size="8.6" font-weight="700"
+          xml:space="preserve">
+      <tspan x="22" dy="0">███╗   ██╗██╗████████╗██╗  ██╗██╗███████╗██╗  ██╗       ██████╗ ███████╗</tspan>
+      <tspan x="22" dy="17">████╗  ██║██║╚══██╔══╝██║  ██║██║██╔════╝██║  ██║      ██╔═══██╗╚════██║</tspan>
+      <tspan x="22" dy="17">██╔██╗ ██║██║   ██║   ███████║██║███████╗███████║█████╗██║   ██║    ██╔╝</tspan>
+      <tspan x="22" dy="17">██║╚██╗██║██║   ██║   ██╔══██║██║╚════██║██╔══██║╚════╝██║   ██║   ██╔╝ </tspan>
+      <tspan x="22" dy="17">██║ ╚████║██║   ██║   ██║  ██║██║███████║██║  ██║      ╚██████╔╝   ██║  </tspan>
+      <tspan x="22" dy="17">╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝       ╚═════╝    ╚═╝  </tspan>
     </text>
 
-    <!-- Role tags -->
+    <!-- Main ASCII art layer with cyan glow -->
+    <text class="name-main font-mono" x="22" y="77"
+          filter="url(#nameGlow)"
+          font-size="8.6" font-weight="700" fill="#00f0ff"
+          xml:space="preserve">
+      <tspan x="22" dy="0">███╗   ██╗██╗████████╗██╗  ██╗██╗███████╗██╗  ██╗       ██████╗ ███████╗</tspan>
+      <tspan x="22" dy="17">████╗  ██║██║╚══██╔══╝██║  ██║██║██╔════╝██║  ██║      ██╔═══██╗╚════██║</tspan>
+      <tspan x="22" dy="17">██╔██╗ ██║██║   ██║   ███████║██║███████╗███████║█████╗██║   ██║    ██╔╝</tspan>
+      <tspan x="22" dy="17">██║╚██╗██║██║   ██║   ██╔══██║██║╚════██║██╔══██║╚════╝██║   ██║   ██╔╝ </tspan>
+      <tspan x="22" dy="17">██║ ╚████║██║   ██║   ██║  ██║██║███████║██║  ██║      ╚██████╔╝   ██║  </tspan>
+      <tspan x="22" dy="17">╚═╝  ╚═══╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝       ╚═════╝    ╚═╝  </tspan>
+    </text>
+
+    <!-- ── Separator line under name ── -->
+    <line x1="26" y1="188" x2="500" y2="188"
+          stroke="#00f0ff" stroke-width="0.6" opacity="0.2"/>
+
+    <!-- ── Info row ── -->
+    <!-- Location -->
+    <text x="26" y="208" class="font-inter"
+          font-size="9.5" font-weight="500" letter-spacing="0.5"
+          fill="#8b949e">
+      <tspan fill="#00f0ff" font-weight="700">◈</tspan>  Tamil Nadu, India  ·  IST +05:30
+    </text>
+
+    <!-- Focus line -->
+    <text x="26" y="226" class="font-inter"
+          font-size="9.5" font-weight="500" letter-spacing="0.5"
+          fill="#8b949e">
+      <tspan fill="#ff9500" font-weight="700">◈</tspan>  ServiceNow  ·  App Dev  ·  Workflow Automation
+    </text>
+
+    <!-- Status line -->
+    <text x="26" y="244" class="font-inter"
+          font-size="9.5" font-weight="500" letter-spacing="0.5"
+          fill="#8b949e">
+      <tspan fill="#39d353" font-weight="700">◈</tspan>  Open to Collabs  ·  REST APIs  ·  Agile Delivery
+    </text>
+
+    <!-- ── Separator ── -->
+    <line x1="26" y1="260" x2="500" y2="260"
+          stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
+
+    <!-- ── Role Badge Tags ── -->
     <!-- Tag 1: ServiceNow -->
-    <rect x="32" y="255" width="90" height="20" rx="4"
-          fill="#8a2be2" fill-opacity="0.15"
-          stroke="#8a2be2" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="77" y="269" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#cc88ff">SERVICENOW</text>
- 
-    <!-- Tag 2: Application Developer -->
-    <rect x="129" y="255" width="146" height="20" rx="4"
-          fill="#ff9500" fill-opacity="0.08"
-          stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="202" y="269" class="font-inter"
-          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
-          fill="#ff9500">APPLICATION DEVELOPER</text>
- 
+    <g class="badge-1">
+      <rect x="26" y="272" width="105" height="26" rx="5"
+            fill="#8a2be2" fill-opacity="0.25"
+            stroke="#8a2be2" stroke-width="1" stroke-opacity="0.8"/>
+      <text x="78" y="289" class="font-inter"
+            font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.5"
+            fill="#e0aaff">SERVICENOW</text>
+    </g>
+
+    <!-- Tag 2: App Developer -->
+    <g class="badge-2">
+      <rect x="141" y="272" width="145" height="26" rx="5"
+            fill="#ff9500" fill-opacity="0.15"
+            stroke="#ff9500" stroke-width="1" stroke-opacity="0.75"/>
+      <text x="213" y="289" class="font-inter"
+            font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1"
+            fill="#ffb74d">APP DEVELOPER</text>
+    </g>
+
     <!-- Tag 3: Workflow Designer -->
-    <rect x="283" y="255" width="124" height="20" rx="4"
-          fill="#00d4ff" fill-opacity="0.08"
-          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="345" y="269" class="font-inter"
-          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
-          fill="#00d4ff">WORKFLOW DESIGNER</text>
+    <g class="badge-3">
+      <rect x="296" y="272" width="150" height="26" rx="5"
+            fill="#00d4ff" fill-opacity="0.12"
+            stroke="#00d4ff" stroke-width="1" stroke-opacity="0.75"/>
+      <text x="371" y="289" class="font-inter"
+            font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1"
+            fill="#67e8f9">WORKFLOW DESIGN</text>
+    </g>
 
+    <!-- ── Separator ── -->
+    <line x1="26" y1="312" x2="500" y2="312"
+          stroke="#1e3a5f" stroke-width="0.8" opacity="0.9"/>
 
-    <!-- ═══════════════════ RIGHT SIDE — IoT NETWORK ═══════════════════ -->
+    <!-- ── Quote line ── -->
+    <text x="261" y="338" class="font-mono"
+          font-size="9" font-weight="500" text-anchor="middle" letter-spacing="0.5"
+          fill="#5a7a8a" font-style="italic">
+      "Build it right. Ship it fast. Automate everything."
+    </text>
 
-    <!-- Subtle right panel bg -->
-    <rect x="450" y="30" width="335" height="265" rx="10"
-          fill="url(#glassGrad)"
-          stroke="#30363d" stroke-width="1" opacity="0.95"/>
+    <!-- ═══════════════════ RIGHT PANEL — DEV ECOSYSTEM ═══════════════════ -->
 
-    <!-- Panel label -->
-    <text x="466" y="50" class="font-inter"
-          font-size="9" font-weight="600" letter-spacing="3"
-          fill="#8b949e" opacity="0.9">DEVELOPMENT ECOSYSTEM  ·  NODE MAP</text>
+    <!-- Right glass card -->
+    <rect x="530" y="16" width="354" height="362" rx="10"
+          fill="url(#panelGradR)"
+          stroke="#2d1b4e" stroke-width="1" opacity="0.9"/>
+    <rect x="531" y="17" width="352" height="1" rx="1"
+          fill="#8a2be2" opacity="0.3"/>
 
-    <!-- DATA FLOW LINES (drawn before nodes so nodes sit on top) -->
+    <!-- Right panel header -->
+    <rect x="530" y="16" width="354" height="36" rx="10"
+          fill="#0d0a1e" fill-opacity="0.9"/>
+    <line x1="530" y1="52" x2="884" y2="52" stroke="#2d1b4e" stroke-width="1" opacity="1"/>
 
-    <!-- Line: center → SNOW (top-left) -->
-    <line x1="617" y1="163" x2="542" y2="98"
-          stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line" x1="617" y1="163" x2="542" y2="98"
-          stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
+    <text x="548" y="38" class="font-inter"
+          font-size="9" font-weight="700" letter-spacing="2.5"
+          fill="#9b72cf" opacity="0.9">DEV ECOSYSTEM  ·  NODE MAP</text>
 
-    <!-- Line: center → JAVA / JS (top-right) -->
-    <line x1="617" y1="163" x2="692" y2="98"
-          stroke="#8a2be2" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-b" x1="617" y1="163" x2="692" y2="98"
-          stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
+    <!-- Data flow lines (static) -->
+    <line x1="718" y1="205" x2="620" y2="125" stroke="#00f0ff" stroke-width="1" opacity="0.2"/>
+    <line x1="718" y1="205" x2="816" y2="125" stroke="#8a2be2" stroke-width="1" opacity="0.2"/>
+    <line x1="718" y1="205" x2="816" y2="285" stroke="#00f0ff" stroke-width="1" opacity="0.2"/>
+    <line x1="718" y1="205" x2="620" y2="285" stroke="#8a2be2" stroke-width="1" opacity="0.2"/>
 
-    <!-- Line: center → CLOUD (bottom-right) -->
-    <line x1="617" y1="163" x2="692" y2="228"
-          stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-c" x1="617" y1="163" x2="692" y2="228"
-          stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
-
-    <!-- Line: center → API (bottom-left) -->
-    <line x1="617" y1="163" x2="542" y2="228"
-          stroke="#8a2be2" stroke-width="1.2" opacity="0.25"/>
-    <line class="flow-line flow-line-d" x1="617" y1="163" x2="542" y2="228"
-          stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
+    <!-- Animated flow lines -->
+    <line class="flow-line"              x1="718" y1="205" x2="620" y2="125" stroke="#00f0ff" stroke-width="2" opacity="0.75"/>
+    <line class="flow-line flow-line-b"  x1="718" y1="205" x2="816" y2="125" stroke="#8a2be2" stroke-width="2" opacity="0.75"/>
+    <line class="flow-line flow-line-c"  x1="718" y1="205" x2="816" y2="285" stroke="#00f0ff" stroke-width="2" opacity="0.75"/>
+    <line class="flow-line flow-line-d"  x1="718" y1="205" x2="620" y2="285" stroke="#8a2be2" stroke-width="2" opacity="0.75"/>
 
     <!-- ── CENTRAL NODE ── -->
-
-    <!-- Outer pulsing rings -->
-    <circle class="ring-pulse" cx="617" cy="163" r="28"
-            fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.6"/>
-    <circle class="ring-pulse-2" cx="617" cy="163" r="28"
-            fill="none" stroke="#8a2be2" stroke-width="1" opacity="0.4"/>
+    <circle class="ring-pulse"   cx="718" cy="205" r="30"
+            fill="none" stroke="#00f0ff" stroke-width="1.5" opacity="0.65"/>
+    <circle class="ring-pulse-2" cx="718" cy="205" r="30"
+            fill="none" stroke="#8a2be2" stroke-width="1"   opacity="0.4"/>
 
     <!-- Radar sweep -->
     <g class="radar-sweep">
-      <path d="M617,163 L617,123 A40,40 0 0,1 645,135 Z"
-            fill="#00f0ff" fill-opacity="0.08"/>
-      <line x1="617" y1="163" x2="617" y2="121"
-            stroke="#00f0ff" stroke-width="1" opacity="0.5"/>
+      <path d="M718,205 L718,163 A44,44 0 0,1 749,173 Z"
+            fill="#00f0ff" fill-opacity="0.06"/>
+      <line x1="718" y1="205" x2="718" y2="160"
+            stroke="#00f0ff" stroke-width="1.2" opacity="0.5"/>
     </g>
 
-    <!-- Central node body (pulsing) -->
+    <!-- Central node body -->
     <g class="node-pulse" filter="url(#nodeGlow)">
-      <!-- Core glow ring -->
-      <circle cx="617" cy="163" r="22"
-              fill="#00f0ff" fill-opacity="0.08"
-              stroke="#00f0ff" stroke-width="1.5" opacity="0.9"/>
-      <!-- Inner fill -->
-      <circle cx="617" cy="163" r="14"
-              fill="#0a1528" stroke="#00f0ff" stroke-width="2"/>
-      <!-- Cross-hairs -->
-      <line x1="609" y1="163" x2="625" y2="163" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
-      <line x1="617" y1="155" x2="617" y2="171" stroke="#00f0ff" stroke-width="1" opacity="0.9"/>
-      <!-- Center dot -->
-      <circle cx="617" cy="163" r="3" fill="#00f0ff"/>
+      <circle cx="718" cy="205" r="24"
+              fill="#00f0ff" fill-opacity="0.07"
+              stroke="#00f0ff" stroke-width="1.8" opacity="0.95"/>
+      <circle cx="718" cy="205" r="15"
+              fill="#070d1a" stroke="#00f0ff" stroke-width="2.2"/>
+      <line x1="708" y1="205" x2="728" y2="205" stroke="#00f0ff" stroke-width="1.2" opacity="0.9"/>
+      <line x1="718" y1="195" x2="718" y2="215" stroke="#00f0ff" stroke-width="1.2" opacity="0.9"/>
+      <circle cx="718" cy="205" r="3.5" fill="#00f0ff"/>
     </g>
 
-    <!-- Central label -->
-    <text x="617" y="193" class="font-inter"
-          font-size="8" font-weight="700" text-anchor="middle" letter-spacing="1.5"
-          fill="#00f0ff" opacity="0.6">CORE</text>
+    <!-- Central CORE label -->
+    <text x="718" y="238" class="font-inter"
+          font-size="9" font-weight="700" text-anchor="middle" letter-spacing="2"
+          fill="#00f0ff" opacity="0.65">CORE</text>
 
     <!-- ── SATELLITE NODE A — top-left (SNOW) ── -->
     <g class="sat-a" filter="url(#purpleGlow)">
-      <circle cx="542" cy="98" r="11"
-              fill="#0a1528" stroke="#00f0ff" stroke-width="1.5"/>
-      <circle cx="542" cy="98" r="5" fill="#00f0ff" opacity="0.8"/>
+      <circle cx="620" cy="125" r="13"
+              fill="#070d1a" stroke="#00f0ff" stroke-width="1.8"/>
+      <circle cx="620" cy="125" r="5.5" fill="#00f0ff" opacity="0.85"/>
     </g>
-    <text x="542" y="82" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff" opacity="0.8">SNOW</text>
+    <text x="620" y="103" class="font-inter"
+          font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1.2"
+          fill="#00f0ff" opacity="0.9">SNOW</text>
 
     <!-- ── SATELLITE NODE B — top-right (JAVA / JS) ── -->
     <g class="sat-b" filter="url(#purpleGlow)">
-      <circle cx="692" cy="98" r="11"
-              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
-      <circle cx="692" cy="98" r="5" fill="#8a2be2" opacity="0.8"/>
+      <circle cx="816" cy="125" r="13"
+              fill="#070d1a" stroke="#8a2be2" stroke-width="1.8"/>
+      <circle cx="816" cy="125" r="5.5" fill="#8a2be2" opacity="0.85"/>
     </g>
-    <text x="692" y="82" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">JAVA / JS</text>
+    <text x="816" y="103" class="font-inter"
+          font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
+          fill="#8a2be2" opacity="0.9">JAVA/JS</text>
 
     <!-- ── SATELLITE NODE C — bottom-right (CLOUD) ── -->
     <g class="sat-c" filter="url(#purpleGlow)">
-      <circle cx="692" cy="228" r="11"
-              fill="#0a1528" stroke="#00f0ff" stroke-width="1.5"/>
-      <circle cx="692" cy="228" r="5" fill="#00f0ff" opacity="0.8"/>
+      <circle cx="816" cy="285" r="13"
+              fill="#070d1a" stroke="#00f0ff" stroke-width="1.8"/>
+      <circle cx="816" cy="285" r="5.5" fill="#00f0ff" opacity="0.85"/>
     </g>
-    <text x="692" y="249" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff" opacity="0.8">CLOUD</text>
+    <text x="816" y="313" class="font-inter"
+          font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
+          fill="#00f0ff" opacity="0.9">CLOUD</text>
 
     <!-- ── SATELLITE NODE D — bottom-left (API) ── -->
     <g class="sat-d" filter="url(#purpleGlow)">
-      <circle cx="542" cy="228" r="11"
-              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
-      <circle cx="542" cy="228" r="5" fill="#8a2be2" opacity="0.8"/>
+      <circle cx="620" cy="285" r="13"
+              fill="#070d1a" stroke="#8a2be2" stroke-width="1.8"/>
+      <circle cx="620" cy="285" r="5.5" fill="#8a2be2" opacity="0.85"/>
     </g>
-    <text x="542" y="249" class="font-inter"
-          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">API</text>
+    <text x="620" y="313" class="font-inter"
+          font-size="8.5" font-weight="700" text-anchor="middle" letter-spacing="1"
+          fill="#8a2be2" opacity="0.9">API</text>
 
-    <!-- ═══════════════════ BOTTOM — TELEMETRY FEED ═══════════════════ -->
+    <!-- ═══════════════════ BOTTOM BAR ═══════════════════ -->
+    <rect x="16" y="390" width="868" height="70" rx="10"
+          fill="url(#bottomGrad)"
+          stroke="#1a2540" stroke-width="1" opacity="0.95"/>
+    <rect x="17" y="391" width="866" height="1" rx="1"
+          fill="#58a6ff" opacity="0.15"/>
 
-    <!-- Quote inside bottom glass card -->
-    <rect x="22" y="308" width="763" height="56" rx="10"
-          fill="url(#glassGrad)"
-          stroke="#30363d" stroke-width="1" opacity="0.95"/>
-    <rect x="23" y="309" width="761" height="1" rx="1"
-          fill="#58a6ff" opacity="0.2"/>
- 
-    <g transform="translate(400, 342)">
-      <text class="font-mono" x="0" y="0"
-            font-size="12" font-weight="600" letter-spacing="1"
-            fill="#8b949e" text-anchor="middle">
-        "If at first you don't succeed, try, try again."
-      </text>
-    </g>
+    <!-- Bottom quote -->
+    <text x="450" y="424" class="font-mono"
+          font-size="12.5" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#8b949e">
+      "If at first you don't succeed, try, try again."
+    </text>
 
-    <!-- Bottom right timestamp -->
-    <text x="776" y="390" class="font-inter"
-          font-size="8" font-weight="400" text-anchor="end" letter-spacing="1"
-          fill="#8b949e" opacity="0.8">NITHISH-O7  ·  IST +05:30  ·  2026</text>
+    <!-- Bottom timestamp left -->
+    <text x="30" y="447" class="font-inter"
+          font-size="8" font-weight="500" letter-spacing="1"
+          fill="#3a6a8a" opacity="0.9">[ UPLINK ACTIVE ]</text>
+
+    <!-- Bottom timestamp right -->
+    <text x="870" y="447" class="font-inter"
+          font-size="8" font-weight="500" text-anchor="end" letter-spacing="1"
+          fill="#3a6a8a" opacity="0.9">NITHISH-O7  ·  IST +05:30  ·  2026</text>
 
   </g>
 </svg>
