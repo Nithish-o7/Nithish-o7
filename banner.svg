@@ -67,7 +67,7 @@
 
     /* ── Base ── */
     .font-inter { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
-    .font-name { font-family: 'Futura-Bold', 'Futura', 'Avenir Next', 'Trebuchet MS', sans-serif; font-weight: 800; text-transform: uppercase; }
+    .font-name { font-family: 'Didot', 'Bodoni MT', 'Georgia', serif; font-weight: 700; text-transform: uppercase; }
     .font-mono { font-family: 'Share Tech Mono', 'Courier New', Courier, Monaco, monospace; }
 
     /* ── Radar sweep animation ── */
@@ -114,6 +114,7 @@
     .sat-b { animation: satPulse 3.1s ease-in-out 0.7s infinite; }
     .sat-c { animation: satPulse 3.1s ease-in-out 1.4s infinite; }
     .sat-d { animation: satPulse 3.1s ease-in-out 2.1s infinite; }
+    .sat-e { animation: satPulse 3.1s ease-in-out 2.8s infinite; }
 
     /* ── Data flow on lines ── */
     @keyframes flowDash {
@@ -127,6 +128,7 @@
     .flow-line-b { animation-delay: 0.45s; }
     .flow-line-c { animation-delay: 0.9s;  }
     .flow-line-d { animation-delay: 1.35s; }
+    .flow-line-e { animation-delay: 1.8s; }
 
     /* Telemetry keyframes removed - static quote used in bottom bar */
 
@@ -286,49 +288,23 @@
     <text x="87" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#cc88ff">SERVICENOW</text>
-
-    <!-- Tag 2: Java -->
-    <rect x="138" y="182" width="46" height="20" rx="4"
+ 
+    <!-- Tag 2: Application Developer -->
+    <rect x="138" y="182" width="146" height="20" rx="4"
           fill="#ff9500" fill-opacity="0.08"
           stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="161" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#ff9500">JAVA</text>
-
-    <!-- Tag 3: Flow Designer -->
-    <rect x="190" y="182" width="108" height="20" rx="4"
+    <text x="211" y="196" class="font-inter"
+          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
+          fill="#ff9500">APPLICATION DEVELOPER</text>
+ 
+    <!-- Tag 3: Workflow Designer -->
+    <rect x="290" y="182" width="124" height="20" rx="4"
           fill="#00d4ff" fill-opacity="0.08"
           stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="244" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00d4ff">FLOW DESIGNER</text>
+    <text x="352" y="196" class="font-inter"
+          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
+          fill="#00d4ff">WORKFLOW DESIGNER</text>
 
-    <!-- Tag 4: Figma -->
-    <rect x="304" y="182" width="54" height="20" rx="4"
-          fill="#cc88ff" fill-opacity="0.15"
-          stroke="#cc88ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
-    <text x="331" y="196" class="font-inter"
-          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#cc88ff">FIGMA</text>
-
-    <!-- Bio lines -->
-    <line x1="42" y1="216" x2="400" y2="216" stroke="#30363d" stroke-width="0.8" opacity="0.9"/>
-
-    <text x="42" y="234" class="font-inter"
-          font-size="10.5" font-weight="400"
-          fill="#8b949e" opacity="0.95">
-      ◈  CS Student  ·  Tamil Nadu, India  ·  IST +05:30
-    </text>
-    <text x="42" y="252" class="font-inter"
-          font-size="10.5" font-weight="400"
-          fill="#8b949e" opacity="0.95">
-      ◈  Application Dev  ·  ServiceNow CSA &amp; CAD
-    </text>
-    <text x="42" y="270" class="font-inter"
-          font-size="10.5" font-weight="400"
-          fill="#8b949e" opacity="0.95">
-      ◈  github.com/Nithish-o7  ·  Always Building
-    </text>
 
     <!-- ═══════════════════ RIGHT SIDE — IoT NETWORK ═══════════════════ -->
 
@@ -374,6 +350,12 @@
           stroke="#8a2be2" stroke-width="1.2" opacity="0.25"/>
     <line class="flow-line flow-line-d" x1="565" y1="175" x2="492" y2="88"
           stroke="#8a2be2" stroke-width="1.8" opacity="0.7"/>
+ 
+    <!-- Line: center → E (bottom-left) -->
+    <line x1="565" y1="175" x2="492" y2="262"
+          stroke="#00f0ff" stroke-width="1.2" opacity="0.25"/>
+    <line class="flow-line flow-line-e" x1="565" y1="175" x2="492" y2="262"
+          stroke="#00f0ff" stroke-width="1.8" opacity="0.7"/>
 
     <!-- ── CENTRAL NODE ── -->
 
@@ -451,6 +433,16 @@
     <text x="492" y="72" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#00f0ff" opacity="0.8">SNOW</text>
+ 
+    <!-- ── SATELLITE NODE E — bottom-left ── -->
+    <g class="sat-e" filter="url(#purpleGlow)">
+      <circle cx="492" cy="262" r="11"
+              fill="#0a1528" stroke="#8a2be2" stroke-width="1.5"/>
+      <circle cx="492" cy="262" r="5" fill="#8a2be2" opacity="0.8"/>
+    </g>
+    <text x="492" y="283" class="font-inter"
+          font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#8a2be2" opacity="0.8">JS</text>
 
     <!-- ═══════════════════ BOTTOM — TELEMETRY FEED ═══════════════════ -->
 

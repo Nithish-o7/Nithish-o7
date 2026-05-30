@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=8" width="800" alt="Nithish — Application Developer Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=9" width="800" alt="Nithish — Application Developer Command Center"/>
 </a>
 
 <br/>
@@ -34,9 +34,9 @@
 // ── process.env → Nithish-o7 ──────────────────────────────────────────────
 const nithish = {
   pronouns     : "he/him",
-  timezone     : "IST +05:30 | Tamil Nadu, India",
-  currentFocus : ["ServiceNow Scoped Apps", "Java Applications", "Full-Stack Dev"],
-  learning     : ["REST API Integration", "Workflow Automation", "Agile Delivery"],
+  timezone     : "IST +05:30 | India",
+  currentFocus : ["ServiceNow Scoped Apps", "Workflow Designer", "Full-Stack Dev"],
+  learning     : ["REST API Integration", "Ai Implementation", "Agile Delivery"],
   openTo       : ["Open Source", "Research Collabs", "Projects"],
   funFact      : "I spend 5 hours automating a task that takes 5 seconds to do manually.",
   coffeeToCode  : "1 cup → 200 lines → 1 bug fixed → 3 new bugs introduced",
@@ -51,6 +51,32 @@ while (nithish.alive) {
 ```
 
 
+
+---
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!-- ▌ CONTRIBUTION MAP — PIXEL MATRIX                     ▐ -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+
+
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
+</a>
+
+
+
+<!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
+<!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
+</picture>
+
+</div>
 
 ---
 
@@ -79,7 +105,6 @@ while (nithish.alive) {
 **`BACKEND & TOOLS`**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-FF6F00?style=for-the-badge&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -89,35 +114,9 @@ while (nithish.alive) {
 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse-ide&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Agile](https://img.shields.io/badge/Agile-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-
----
-
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-<!-- ▌ CONTRIBUTION MAP — PIXEL MATRIX                     ▐ -->
-<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
-
-
-<div align="center">
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
-</a>
-
-
-
-<!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
-<!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake.svg"/>
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/output/github-snake-dark.svg"/>
-</picture>
-
-</div>
 
 ---
 
