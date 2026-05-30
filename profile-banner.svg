@@ -258,8 +258,17 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-            <!-- Name Section -->
-    <text class="font-mono" x="219" y="140" font-size="34" font-weight="700" letter-spacing="4" fill="#ffffff" text-anchor="middle" filter="url(#nameGlow)">NITHISH-O7</text>
+                <!-- ASCII Art Name -->
+    <text class="font-mono" x="80" y="107" font-size="4.8" font-weight="700" fill="#00f0ff" xml:space="preserve">
+      <tspan x="80" dy="0">$$\   $$\ $$$$$$\ $$$$$$$$\ $$\   $$\ $$$$$$\  $$$$$$\  $$\   $$\          $$$$$$\  $$$$$$$$\ </tspan>
+      <tspan x="80" dy="10">$$$\  $$ |\_$$  _|\__$$  __|$$ |  $$ |\_$$  _|$$  __$$\ $$ |  $$ |        $$  __$$\ \____$$  |</tspan>
+      <tspan x="80" dy="10">$$$$\ $$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$ /  \__|$$ |  $$ |        $$ /  $$ |    $$  / </tspan>
+      <tspan x="80" dy="10">$$ $$\$$ |  $$ |     $$ |   $$$$$$$$ |  $$ |  \$$$$$$\  $$$$$$$$ |$$$$$$\ $$ |  $$ |   $$  /  </tspan>
+      <tspan x="80" dy="10">$$ \$$$$ |  $$ |     $$ |   $$  __$$ |  $$ |   \____$$\ $$  __$$ |\______|$$ |  $$ |  $$  /   </tspan>
+      <tspan x="80" dy="10">$$ |\$$$ |  $$ |     $$ |   $$ |  $$ |  $$ |  $$\   $$ |$$ |  $$ |        $$ |  $$ | $$  /    </tspan>
+      <tspan x="80" dy="10">$$ | \$$ |$$$$$$\    $$ |   $$ |  $$ |$$$$$$\ \$$$$$$  |$$ |  $$ |         $$$$$$  |$$  /     </tspan>
+      <tspan x="80" dy="10">\__|  \__|\______|   \__|   \__|  \__|\______| \______/ \__|  \__|         \______/ \__/      </tspan>
+    </text>
 
     <!-- Role tags -->
     <!-- Tag 1: ServiceNow -->
