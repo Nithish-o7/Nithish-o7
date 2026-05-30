@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/profile-banner-v5.svg" width="800" alt="Nithish — Application Developer Command Center"/>
+  <img src="hologram-banner.svg" width="800" alt="Nithish — Holographic Command Center" />
 </a>
 
 <br/>
