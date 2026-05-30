@@ -5,14 +5,14 @@
   <defs>
     <!-- Background radial glow -->
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%"   stop-color="#0d1a35" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#0a0f1c" stop-opacity="1"/>
+      <stop offset="0%"   stop-color="#121824" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
     </radialGradient>
 
     <!-- Left card glass gradient -->
     <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.02"/>
+      <stop offset="0%"   stop-color="#21262d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.4"/>
     </linearGradient>
 
     <!-- Cyan glow filter for name -->
@@ -49,7 +49,7 @@
 
     <!-- Grid pattern -->
     <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f0ff" stroke-width="0.2" opacity="0.15"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00d4ff" stroke-width="0.2" opacity="0.08"/>
     </pattern>
 
     <!-- Data flow dash gradient -->
@@ -261,23 +261,23 @@
     <!-- Glass card background -->
     <rect x="22" y="30" width="395" height="265" rx="10"
           fill="url(#glassGrad)"
-          stroke="#00f0ff" stroke-width="0.8" opacity="0.5"/>
+          stroke="#30363d" stroke-width="1" opacity="0.95"/>
     <!-- Card inner highlight top -->
     <rect x="23" y="31" width="393" height="1" rx="1"
-          fill="#00f0ff" opacity="0.15"/>
+          fill="#58a6ff" opacity="0.2"/>
 
     <!-- Card header strip -->
     <rect x="22" y="30" width="395" height="32" rx="10"
-          fill="#00f0ff" fill-opacity="0.07"/>
-    <line x1="22" y1="62" x2="417" y2="62" stroke="#00f0ff" stroke-width="0.6" opacity="0.3"/>
+          fill="#21262d" fill-opacity="0.8"/>
+    <line x1="22" y1="62" x2="417" y2="62" stroke="#30363d" stroke-width="1" opacity="0.9"/>
 
     <!-- Card header text -->
     <text x="42" y="50" class="font-inter"
           font-size="9" font-weight="600" letter-spacing="3"
-          fill="#00f0ff" opacity="0.7">NITHISH-O7  ·  COMMAND INTERFACE  ·  v4.0</text>
+          fill="#58a6ff" opacity="0.9">NITHISH-O7  ·  COMMAND INTERFACE  ·  v4.0</text>
 
     <!-- Status dot -->
-    <circle class="status-dot" cx="394" cy="46" r="4" fill="#00ff88"/>
+    <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
     <!-- Name — glitch ghost layer -->
     <text class="name-ghost font-inter"
@@ -292,64 +292,64 @@
           fill="#ffffff" filter="url(#nameGlow)">NITHISH</text>
 
     <!-- Cyan underline beneath name -->
-    <rect x="42" y="137" width="310" height="2" rx="1"
-          fill="url(#lineGrad1)" opacity="0.7"/>
+    <rect x="42" y="137" width="310" height="1.5" rx="1"
+          fill="url(#lineGrad1)" opacity="0.4"/>
 
     <!-- Subtitle -->
     <text class="subtitle font-inter"
           x="44" y="164"
-          font-size="13.5" font-weight="400" letter-spacing="0.5"
-          fill="#a0c8e0" opacity="0.9">Cloud Admin  ·  Automation  ·  UI/UX</text>
+          font-size="13.5" font-weight="500" letter-spacing="0.5"
+          fill="#8b949e" opacity="0.95">Cloud Admin  ·  Automation  ·  UI/UX</text>
 
     <!-- Role tags -->
     <!-- Tag 1: ServiceNow -->
-    <rect x="42" y="182" width="98" height="20" rx="4"
-          fill="#8a2be2" fill-opacity="0.25"
-          stroke="#8a2be2" stroke-width="0.8" opacity="0.9"/>
-    <text x="91" y="196" class="font-inter"
+    <rect x="42" y="182" width="90" height="20" rx="4"
+          fill="#8a2be2" fill-opacity="0.15"
+          stroke="#8a2be2" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="87" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
           fill="#cc88ff">SERVICENOW</text>
 
     <!-- Tag 2: IoT -->
-    <rect x="148" y="182" width="60" height="20" rx="4"
-          fill="#00f0ff" fill-opacity="0.12"
-          stroke="#00f0ff" stroke-width="0.8" opacity="0.9"/>
+    <rect x="138" y="182" width="80" height="20" rx="4"
+          fill="#00d4ff" fill-opacity="0.08"
+          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
     <text x="178" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff">IoT / ESP32</text>
+          fill="#00d4ff">IoT / ESP32</text>
 
     <!-- Tag 3: Python -->
-    <rect x="216" y="182" width="60" height="20" rx="4"
-          fill="#00f0ff" fill-opacity="0.08"
-          stroke="#00f0ff" stroke-width="0.8" opacity="0.7"/>
-    <text x="246" y="196" class="font-inter"
+    <rect x="224" y="182" width="60" height="20" rx="4"
+          fill="#00d4ff" fill-opacity="0.08"
+          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="254" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#00f0ff">PYTHON</text>
+          fill="#00d4ff">PYTHON</text>
 
     <!-- Tag 4: Figma -->
-    <rect x="284" y="182" width="52" height="20" rx="4"
-          fill="#8a2be2" fill-opacity="0.2"
-          stroke="#8a2be2" stroke-width="0.8" opacity="0.8"/>
-    <text x="310" y="196" class="font-inter"
+    <rect x="290" y="182" width="54" height="20" rx="4"
+          fill="#ff9500" fill-opacity="0.08"
+          stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="317" y="196" class="font-inter"
           font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#cc88ff">FIGMA</text>
+          fill="#ff9500">FIGMA</text>
 
     <!-- Bio lines -->
-    <line x1="42" y1="216" x2="400" y2="216" stroke="#00f0ff" stroke-width="0.4" opacity="0.2"/>
+    <line x1="42" y1="216" x2="400" y2="216" stroke="#30363d" stroke-width="0.8" opacity="0.9"/>
 
     <text x="42" y="234" class="font-inter"
           font-size="10.5" font-weight="400"
-          fill="#6a8ea0" opacity="0.85">
+          fill="#8b949e" opacity="0.95">
       ◈  CS Student  ·  Tamil Nadu, India  ·  IST +05:30
     </text>
     <text x="42" y="252" class="font-inter"
           font-size="10.5" font-weight="400"
-          fill="#6a8ea0" opacity="0.85">
+          fill="#8b949e" opacity="0.95">
       ◈  SIH 2025 Finalist  ·  ServiceNow CSA &amp; CAD
     </text>
     <text x="42" y="270" class="font-inter"
           font-size="10.5" font-weight="400"
-          fill="#6a8ea0" opacity="0.85">
+          fill="#8b949e" opacity="0.95">
       ◈  github.com/Nithish-o7  ·  Always Building
     </text>
 
@@ -357,13 +357,13 @@
 
     <!-- Subtle right panel bg -->
     <rect x="450" y="30" width="335" height="265" rx="10"
-          fill="#00f0ff" fill-opacity="0.02"
-          stroke="#8a2be2" stroke-width="0.6" opacity="0.4"/>
+          fill="url(#glassGrad)"
+          stroke="#30363d" stroke-width="1" opacity="0.95"/>
 
     <!-- Panel label -->
     <text x="466" y="50" class="font-inter"
           font-size="9" font-weight="600" letter-spacing="3"
-          fill="#8a2be2" opacity="0.7">IOT NETWORK  ·  NODE MAP</text>
+          fill="#8b949e" opacity="0.9">IOT NETWORK  ·  NODE MAP</text>
 
     <!-- ── Satellite nodes positions:
          A = top-right   (638, 82)
@@ -479,25 +479,25 @@
 
     <!-- Bottom bar background -->
     <rect x="0" y="308" width="800" height="74"
-          fill="#00f0ff" fill-opacity="0.03"
+          fill="#161b22" fill-opacity="0.85"
           stroke="none"/>
     <line x1="0" y1="308" x2="800" y2="308"
-          stroke="#00f0ff" stroke-width="0.8" opacity="0.2"/>
+          stroke="#30363d" stroke-width="1" opacity="0.95"/>
 
     <!-- Left label "TELEMETRY FEED" -->
     <text x="24" y="330" class="font-inter"
           font-size="8.5" font-weight="700" letter-spacing="3"
-          fill="#00f0ff" opacity="0.5">TELEMETRY FEED</text>
+          fill="#8b949e" opacity="0.95">TELEMETRY FEED</text>
 
     <!-- Status indicator -->
-    <circle class="status-dot" cx="150" cy="326" r="3.5" fill="#00ff88"/>
+    <circle class="status-dot" cx="150" cy="326" r="3.5" fill="#39d353"/>
     <text x="158" y="330" class="font-inter"
           font-size="8" font-weight="600" letter-spacing="1"
-          fill="#00ff88" opacity="0.7">LIVE</text>
+          fill="#39d353" opacity="0.95">LIVE</text>
 
     <!-- Separator -->
     <line x1="24" y1="338" x2="776" y2="338"
-          stroke="#00f0ff" stroke-width="0.4" opacity="0.15"/>
+          stroke="#30363d" stroke-width="0.8" opacity="0.8"/>
 
     <!-- Telemetry lines container -->
     <g transform="translate(24, 345)">
@@ -505,48 +505,48 @@
       <g class="tele-line tele1">
         <text class="font-inter" x="0" y="18"
               font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#00f0ff">
-          <tspan fill="#8a2be2" opacity="0.9">TELEMETRY</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#e0e8f0">Project Guardian AI Framework</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#00ff88" font-size="10">[ONLINE]</tspan>
+              fill="#c9d1d9">
+          <tspan fill="#ff9500" opacity="0.95">TELEMETRY</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#c9d1d9">Project Guardian AI Framework</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#39d353" font-size="10">[ONLINE]</tspan>
         </text>
       </g>
       <!-- Line 2 -->
       <g class="tele-line tele2">
         <text class="font-inter" x="0" y="18"
               font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#00f0ff">
-          <tspan fill="#8a2be2" opacity="0.9">AUTOMATION</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#e0e8f0">Python IT Workflows</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#00ff88" font-size="10">[ACTIVE]</tspan>
+              fill="#c9d1d9">
+          <tspan fill="#00d4ff" opacity="0.95">AUTOMATION</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#c9d1d9">Python IT Workflows</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#39d353" font-size="10">[ACTIVE]</tspan>
         </text>
       </g>
       <!-- Line 3 -->
       <g class="tele-line tele3">
         <text class="font-inter" x="0" y="18"
               font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#00f0ff">
-          <tspan fill="#8a2be2" opacity="0.9">SERVICENOW</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#e0e8f0">CSA &amp; CAD Scoped Apps</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#00ff88" font-size="10">[DEPLOYED]</tspan>
+              fill="#c9d1d9">
+          <tspan fill="#8a2be2" opacity="0.95">SERVICENOW</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#c9d1d9">CSA &amp; CAD Scoped Apps</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#39d353" font-size="10">[DEPLOYED]</tspan>
         </text>
       </g>
       <!-- Line 4 -->
       <g class="tele-line tele4">
         <text class="font-inter" x="0" y="18"
               font-size="12" font-weight="600" letter-spacing="0.3"
-              fill="#00f0ff">
-          <tspan fill="#8a2be2" opacity="0.9">INTERFACE</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#e0e8f0">Figma Prototypes</tspan>
-          <tspan fill="#4a6070">  ·  </tspan>
-          <tspan fill="#00ff88" font-size="10">[SYNCED]</tspan>
+              fill="#c9d1d9">
+          <tspan fill="#58a6ff" opacity="0.95">INTERFACE</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#c9d1d9">Figma Prototypes</tspan>
+          <tspan fill="#444c56">  ·  </tspan>
+          <tspan fill="#39d353" font-size="10">[SYNCED]</tspan>
         </text>
       </g>
     </g>

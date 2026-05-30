@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=4" width="800" alt="Nithish — Cloud & IoT Command Center"/>
+  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg?v=5" width="800" alt="Nithish — Cloud & IoT Command Center"/>
 </a>
 
 <br/>
