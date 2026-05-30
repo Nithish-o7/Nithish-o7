@@ -67,7 +67,7 @@
 
     /* ── Base ── */
     .font-inter { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
-    .font-name { font-family: 'Didot', 'Bodoni MT', 'Georgia', serif; font-weight: 700; text-transform: uppercase; }
+    .font-name { font-family: 'SignPainter-HouseScript', 'SignPainter', 'Brush Script MT', 'Georgia', cursive; font-weight: 600; }
     .font-mono { font-family: 'Share Tech Mono', 'Courier New', Courier, Monaco, monospace; }
 
     /* ── Radar sweep animation ── */
@@ -260,15 +260,15 @@
 
     <!-- Name — glitch ghost layer -->
     <text class="name-ghost font-name"
-          x="42" y="130"
-          font-size="34" font-weight="700" letter-spacing="4"
-          fill="#8a2be2" opacity="0">NITHISH</text>
+          x="42" y="132"
+          font-size="44" font-weight="600" letter-spacing="1"
+          fill="#8a2be2" opacity="0">Nithish</text>
 
     <!-- Name — main -->
     <text class="name-main font-name"
-          x="42" y="130"
-          font-size="34" font-weight="700" letter-spacing="4"
-          fill="#ffffff" filter="url(#nameGlow)">NITHISH</text>
+          x="42" y="132"
+          font-size="44" font-weight="600" letter-spacing="1"
+          fill="#ffffff" filter="url(#nameGlow)">Nithish</text>
 
     <!-- Cyan underline beneath name -->
     <rect x="42" y="137" width="310" height="1.5" rx="1"
@@ -442,7 +442,7 @@
     </g>
     <text x="492" y="283" class="font-inter"
           font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1"
-          fill="#8a2be2" opacity="0.8">JS</text>
+          fill="#8a2be2" opacity="0.8">JAVASCRIPT</text>
 
     <!-- ═══════════════════ BOTTOM — TELEMETRY FEED ═══════════════════ -->
 
