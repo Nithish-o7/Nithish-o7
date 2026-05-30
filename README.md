@@ -151,11 +151,7 @@ while (nithish.alive) {
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=11&duration=1800&pause=600&color=5A7A8A&center=true&vCenter=true&width=680&height=18&lines=%5B+SCANNING+CONTRIBUTION+MATRIX+...+RENDERING+PIXEL+FIELD+%5D" alt="Map Label"/>
 </a>
 
-<!-- 3D Contribution Calendar — generated via GitHub Actions (.github/workflows/3d-contrib.yml) -->
-<!-- Action: yoshi389111/github-profile-3d-contrib | Output: profile-3d-contrib/profile-green-animate.svg -->
-<img src="./profile-3d-contrib/profile-customize.svg" width="100%" alt="3D Contribution Calendar"/>
 
-<br/>
 
 <!-- Animated Snake — generated via GitHub Actions (.github/workflows/snake.yml) -->
 <!-- Action: Platane/snk@v3 | Branch: output | Files: github-snake-dark.svg -->
@@ -168,8 +164,7 @@ while (nithish.alive) {
 
 </div>
 
-> **`[SETUP]`** Add `.github/workflows/snake.yml` using [Platane/snk@v3](https://github.com/Platane/snk) for the snake.  
-> **`[SETUP]`** Add `.github/workflows/3d-contrib.yml` using [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) for the 3D map.
+> **`[SETUP]`** Add `.github/workflows/snake.yml` using [Platane/snk@v3](https://github.com/Platane/snk) for the snake.
 
 ---
 
