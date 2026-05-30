@@ -31,7 +31,7 @@
 
 
 ```js
-// ── process.env → NKD-01 ──────────────────────────────────────────────────
+// ── process.env → Nithish-o7 ──────────────────────────────────────────────
 const nithish = {
   pronouns     : "he/him",
   timezone     : "IST +05:30 | Tamil Nadu, India",
@@ -183,7 +183,7 @@ while (nithish.alive) {
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3500&pause=1000&color=5A7A8A&center=true&vCenter=true&width=680&lines=NKD-ENG-01+%C2%B7+Tamil+Nadu%2C+India+%C2%B7+IST+%2B5%3A30;Built+from+scratch.+Ships+to+production.;%5B+UPLINK+ACTIVE+%E2%80%94+TRANSMISSION+OPEN+%5D" alt="Footer Typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=12&duration=3500&pause=1000&color=5A7A8A&center=true&vCenter=true&width=680&lines=Nithish-o7+%C2%B7+Tamil+Nadu%2C+India+%C2%B7+IST+%2B5%3A30;Built+from+scratch.+Ships+to+production.;%5B+UPLINK+ACTIVE+%E2%80%94+TRANSMISSION+OPEN+%5D" alt="Footer Typing"/>
 
 <br/><br/>
 

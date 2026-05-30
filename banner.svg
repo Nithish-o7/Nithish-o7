@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 800 400" width="800" height="400" role="img"
-     aria-label="Nithish Kanna — Cloud & IoT Command Center Banner">
+     aria-label="Nithish — Cloud & IoT Command Center Banner">
 
   <defs>
     <!-- Background radial glow -->
@@ -275,7 +275,7 @@
     <!-- Card header text -->
     <text x="42" y="50" class="font-inter"
           font-size="9" font-weight="600" letter-spacing="3"
-          fill="#00f0ff" opacity="0.7">NKD-01  ·  COMMAND INTERFACE  ·  v3.0</text>
+          fill="#00f0ff" opacity="0.7">NITHISH-O7  ·  COMMAND INTERFACE  ·  v4.0</text>
 
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#00ff88"/>
@@ -284,13 +284,13 @@
     <text class="name-ghost font-inter"
           x="42" y="130"
           font-size="38" font-weight="900" letter-spacing="1"
-          fill="#8a2be2" opacity="0">NITHISH KANNA</text>
+          fill="#8a2be2" opacity="0">NITHISH</text>
 
     <!-- Name — main -->
     <text class="name-main font-inter"
           x="42" y="130"
           font-size="38" font-weight="900" letter-spacing="1"
-          fill="#ffffff" filter="url(#nameGlow)">NITHISH KANNA</text>
+          fill="#ffffff" filter="url(#nameGlow)">NITHISH</text>
 
     <!-- Cyan underline beneath name -->
     <rect x="42" y="137" width="310" height="2" rx="1"
@@ -555,7 +555,7 @@
     <!-- Bottom right timestamp -->
     <text x="776" y="390" class="font-inter"
           font-size="8" font-weight="400" text-anchor="end" letter-spacing="1"
-          fill="#2a4050" opacity="0.9">NKD-ENG-01  ·  IST +05:30  ·  2026</text>
+          fill="#2a4050" opacity="0.9">NITHISH-O7  ·  IST +05:30  ·  2026</text>
 
   </g>
 </svg>
