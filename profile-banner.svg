@@ -258,20 +258,45 @@
     <!-- Status dot -->
     <circle class="status-dot" cx="394" cy="46" r="4" fill="#39d353"/>
 
-        <!-- ASCII Art Name -->
-    <text class="font-mono" x="77" y="119" font-size="5.8" font-weight="700" fill="#00f0ff" filter="url(#nameGlow)" xml:space="preserve">
-      <tspan x="77" dy="0">$$\  $$\ $$\  $$\    $$\      $$\        $$\                        $$$$$$$$\</tspan>
-      <tspan x="77" dy="12">$$$\  $$ |\_|  $$ |   $$ |     \_|        $$ |                       \____$$  |</tspan>
-      <tspan x="77" dy="12">$$$$ \ $$ |$$\ $$$$$$\ $$$$$$$\ $$\ $$$$$$$\ $$$$$$$\   $$\   $$\ $$$$$$\   $$  /</tspan>
-      <tspan x="77" dy="12">$$ $$ \$$ |$$ |\_$$  _|\_$$  _||$$ |$$  _____|$$  __$$\  $$ |  $$ |\_$$  _|  $$  /</tspan>
-      <tspan x="77" dy="12">$$ \$$ $$ |$$ |  $$ |    $$ |  $$ |$$ /      $$ |  $$ |  $$ |  $$ |  $$ |   $$  /</tspan>
-      <tspan x="77" dy="12">$$ |\$$$ |$$ |  $$ |$$\ $$ |$$\$$ |$$ |      $$ |  $$ |  $$ |  $$ |  $$ |  $$  /</tspan>
-      <tspan x="77" dy="12">$$ | \$$ |$$ |  \$$$$  |\$$$$  |$$ |\$$$$$$$\ $$ |  $$ |  \$$$$$$$|  $$ |  $$  /</tspan>
-      <tspan x="77" dy="12">\__|  \__|\__|   \____/  \____/ \__| \_______|\__|  \__|   \____$$ |  \__|  \__/</tspan>
-      <tspan x="77" dy="12">                                                          $$\   $$ |</tspan>
-      <tspan x="77" dy="12">                                                          \$$$$$$  |</tspan>
-      <tspan x="77" dy="12">                                                           \______/</tspan>
+            <!-- ASCII Art Name -->
+    <text class="font-mono" x="106" y="92" font-size="4.6" font-weight="700" fill="#00f0ff" xml:space="preserve">
+      <tspan x="106" dy="0">$$\  $$\ $$\  $$\    $$\      $$\        $$\                        $$$$$$$$\</tspan>
+      <tspan x="106" dy="10">$$$\  $$ |\_|  $$ |   $$ |     \_|        $$ |                       \____$$  |</tspan>
+      <tspan x="106" dy="10">$$$$ \ $$ |$$\ $$$$$$\ $$$$$$$\ $$\ $$$$$$$\ $$$$$$$\   $$\   $$\ $$$$$$\   $$  /</tspan>
+      <tspan x="106" dy="10">$$ $$ \$$ |$$ |\_$$  _|\_$$  _||$$ |$$  _____|$$  __$$\  $$ |  $$ |\_$$  _|  $$  /</tspan>
+      <tspan x="106" dy="10">$$ \$$ $$ |$$ |  $$ |    $$ |  $$ |$$ /      $$ |  $$ |  $$ |  $$ |  $$ |   $$  /</tspan>
+      <tspan x="106" dy="10">$$ |\$$$ |$$ |  $$ |$$\ $$ |$$\$$ |$$ |      $$ |  $$ |  $$ |  $$ |  $$ |  $$  /</tspan>
+      <tspan x="106" dy="10">$$ | \$$ |$$ |  \$$$$  |\$$$$  |$$ |\$$$$$$$\ $$ |  $$ |  \$$$$$$$|  $$ |  $$  /</tspan>
+      <tspan x="106" dy="10">\__|  \__|\__|   \____/  \____/ \__| \_______|\__|  \__|   \____$$ |  \__|  \__/</tspan>
+      <tspan x="106" dy="10">                                                          $$\   $$ |</tspan>
+      <tspan x="106" dy="10">                                                          \$$$$$$  |</tspan>
+      <tspan x="106" dy="10">                                                           \______/</tspan>
     </text>
+
+    <!-- Role tags -->
+    <!-- Tag 1: ServiceNow -->
+    <rect x="32" y="225" width="90" height="20" rx="4"
+          fill="#8a2be2" fill-opacity="0.15"
+          stroke="#8a2be2" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="77" y="239" class="font-inter"
+          font-size="9" font-weight="600" text-anchor="middle" letter-spacing="1"
+          fill="#cc88ff">SERVICENOW</text>
+ 
+    <!-- Tag 2: Application Developer -->
+    <rect x="129" y="225" width="146" height="20" rx="4"
+          fill="#ff9500" fill-opacity="0.08"
+          stroke="#ff9500" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="202" y="239" class="font-inter"
+          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
+          fill="#ff9500">APPLICATION DEVELOPER</text>
+ 
+    <!-- Tag 3: Workflow Designer -->
+    <rect x="283" y="225" width="124" height="20" rx="4"
+          fill="#00d4ff" fill-opacity="0.08"
+          stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.5" opacity="0.95"/>
+    <text x="345" y="239" class="font-inter"
+          font-size="8.5" font-weight="600" text-anchor="middle" letter-spacing="0.5"
+          fill="#00d4ff">WORKFLOW DESIGNER</text>
 
 
     <!-- ═══════════════════ RIGHT SIDE — IoT NETWORK ═══════════════════ -->
