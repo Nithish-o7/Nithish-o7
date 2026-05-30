@@ -12,7 +12,7 @@
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
 <a href="https://github.com/Nithish-o7">
-  <img src="https://raw.githubusercontent.com/Nithish-o7/Nithish-o7/main/banner.svg" width="800" alt="Nithish — Cloud & IoT Command Center"/>
+  <img src="./banner.svg" width="800" alt="Nithish — Cloud & IoT Command Center"/>
 </a>
 
 <br/>
@@ -112,13 +112,13 @@ while (nithish.alive) {
 
 <!-- Header label -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=2000&pause=600&color=00D4FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=22&lines=%5B+READING+TELEMETRY+...+%5D+→+GITHUB+API+CONNECTED;%5B+FETCHING+COMMIT+LOG+...+%5D+→+DATA+STREAM+LIVE;%5B+RENDERING+CONSOLE+...+%5D+→+DISPLAY+NOMINAL" alt="Console Boot"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&duration=2000&pause=600&color=00D4FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=22&lines=%5B+READING+TELEMETRY+...+%5D+%E2%86%92+GITHUB+API+CONNECTED;%5B+FETCHING+COMMIT+LOG+...+%5D+%E2%86%92+DATA+STREAM+LIVE;%5B+RENDERING+CONSOLE+...+%5D+%E2%86%92+DISPLAY+NOMINAL" alt="Console Boot"/>
 </a>
 
 <br/>
 
 <!-- Stats + Streak side by side -->
-<img height="170" src="https://github-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Nithish-o7&show_icons=true&theme=tokyonight&hide_border=true&title_color=00D4FF&icon_color=FF9500&text_color=a9b1d6&ring_color=00D4FF&bg_color=0d1117&count_private=true&include_all_commits=true&custom_title=◈+COMMIT+TELEMETRY" alt="GitHub Stats"/>
 &nbsp;
 <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Nithish-o7&theme=tokyonight&hide_border=true&stroke=00D4FF&ring=00D4FF&fire=FF9500&currStreakLabel=00D4FF&sideLabels=a9b1d6&currStreakNum=e0e0e0&sideNums=e0e0e0&dates=5a7a8a&background=0d1117" alt="Streak Stats"/>
 
@@ -127,7 +127,7 @@ while (nithish.alive) {
 <div align="center">
 
 <!-- Top languages -->
-<img height="155" src="https://github-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithish-o7&layout=compact&theme=tokyonight&hide_border=true&title_color=00D4FF&text_color=a9b1d6&bg_color=0d1117&langs_count=8&custom_title=◈+LANGUAGE+DISTRIBUTION" alt="Top Languages"/>
 
 </div>
 
